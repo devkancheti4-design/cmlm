@@ -1,0 +1,374 @@
+{
+ "2310.08560": {
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "authors": [
+   "Charles Packer",
+   "Sarah Wooders",
+   "Kevin Lin",
+   "Vivian Fang",
+   "Shishir G. Patil",
+   "Ion Stoica",
+   "Joseph E. Gonzalez"
+  ],
+  "published": "2023-10-12",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2305.14788": {
+  "title": "Adapting Language Models to Compress Contexts",
+  "authors": [
+   "Alexis Chevalier",
+   "Alexander Wettig",
+   "Anirudh Ajith",
+   "Danqi Chen"
+  ],
+  "published": "2023-05-24",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2104.08691": {
+  "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+  "authors": [
+   "Brian Lester",
+   "Rami Al-Rfou",
+   "Noah Constant"
+  ],
+  "published": "2021-04-18",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2412.17483": {
+  "title": "A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression",
+  "authors": [
+   "Chenlong Deng",
+   "Zhisong Zhang",
+   "Kelong Mao",
+   "Shuaiyi Li",
+   "Xinting Huang",
+   "Dong Yu",
+   "Zhicheng Dou"
+  ],
+  "published": "2024-12-23",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2603.06642": {
+  "title": "SR-TTT Does Not Learn Retrieval: A Correction and Mechanistic Post-Mortem of Surprisal-Aware Residual Test-Time Training",
+  "authors": [
+   "Swamynathan V P"
+  ],
+  "published": "2026-02-26",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2601.01885": {
+  "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents",
+  "authors": [
+   "Yi Yu",
+   "Liuyi Yao",
+   "Yuexiang Xie",
+   "Qingquan Tan",
+   "Jiaqi Feng",
+   "Yaliang Li",
+   "Libing Wu"
+  ],
+  "published": "2026-01-05",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2101.00190": {
+  "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+  "authors": [
+   "Xiang Lisa Li",
+   "Percy Liang"
+  ],
+  "published": "2021-01-01",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2601.00671": {
+  "title": "Fast-weight Product Key Memory",
+  "authors": [
+   "Tianyu Zhao",
+   "Llion Jones"
+  ],
+  "published": "2026-01-02",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2606.09659": {
+  "title": "End-to-End Context Compression at Scale",
+  "authors": [
+   "Ang Li",
+   "Sean McLeish",
+   "Haozhe Chen",
+   "Nimit Kalra",
+   "Zaiqian Chen",
+   "Artem Gazizov",
+   "Venkata Anoop Suhas Kumar Morisetty",
+   "Bhavya Kailkhura",
+   "Harshitha Menon",
+   "Zhuang Liu",
+   "Brian R. Bartoldson",
+   "Tom Goldstein",
+   "Sanae Lotfi",
+   "Micah Goldblum",
+   "Pavel Izmailov"
+  ],
+  "published": "2026-06-08",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2608.01672": {
+  "title": "Learning What to Remember: Test-Time Training via Context Distillation",
+  "authors": [
+   "Zixuan Wang",
+   "Xingyu Dang",
+   "Rui-Jie Zhu",
+   "Zixin Wen",
+   "Hengyu Fu",
+   "Wenhao Chai",
+   "Jason D. Lee"
+  ],
+  "published": "2026-08-03",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2204.14198": {
+  "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+  "authors": [
+   "Jean-Baptiste Alayrac",
+   "Jeff Donahue",
+   "Pauline Luc",
+   "Antoine Miech",
+   "Iain Barr",
+   "Yana Hasson",
+   "Karel Lenc",
+   "Arthur Mensch",
+   "Katie Millican",
+   "Malcolm Reynolds",
+   "Roman Ring",
+   "Eliza Rutherford",
+   "Serkan Cabi",
+   "Tengda Han",
+   "Zhitao Gong",
+   "Sina Samangooei",
+   "Marianne Monteiro",
+   "Jacob Menick",
+   "Sebastian Borgeaud",
+   "Andrew Brock",
+   "Aida Nematzadeh",
+   "Sahand Sharifzadeh",
+   "Mikolaj Binkowski",
+   "Ricardo Barreira",
+   "Oriol Vinyals",
+   "Andrew Zisserman",
+   "Karen Simonyan"
+  ],
+  "published": "2022-04-29",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2501.00663": {
+  "title": "Titans: Learning to Memorize at Test Time",
+  "authors": [
+   "Ali Behrouz",
+   "Peilin Zhong",
+   "Vahab Mirrokni"
+  ],
+  "published": "2024-12-31",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2511.15244": {
+  "title": "Context Cascade Compression: Exploring the Upper Limits of Text Compression",
+  "authors": [
+   "Fanfan Liu",
+   "Haibo Qiu"
+  ],
+  "published": "2025-11-19",
+  "journal_ref": null,
+  "doi": null
+ },
+ "0902.2206": {
+  "title": "Feature Hashing for Large Scale Multitask Learning",
+  "authors": [
+   "Kilian Weinberger",
+   "Anirban Dasgupta",
+   "Josh Attenberg",
+   "John Langford",
+   "Alex Smola"
+  ],
+  "published": "2009-02-12",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2304.08485": {
+  "title": "Visual Instruction Tuning",
+  "authors": [
+   "Haotian Liu",
+   "Chunyuan Li",
+   "Qingyang Wu",
+   "Yong Jae Lee"
+  ],
+  "published": "2023-04-17",
+  "journal_ref": null,
+  "doi": null
+ },
+ "1911.00172": {
+  "title": "Generalization through Memorization: Nearest Neighbor Language Models",
+  "authors": [
+   "Urvashi Khandelwal",
+   "Omer Levy",
+   "Dan Jurafsky",
+   "Luke Zettlemoyer",
+   "Mike Lewis"
+  ],
+  "published": "2019-11-01",
+  "journal_ref": null,
+  "doi": null
+ },
+ "1807.03748": {
+  "title": "Representation Learning with Contrastive Predictive Coding",
+  "authors": [
+   "Aaron van den Oord",
+   "Yazhe Li",
+   "Oriol Vinyals"
+  ],
+  "published": "2018-07-10",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2005.11401": {
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": [
+   "Patrick Lewis",
+   "Ethan Perez",
+   "Aleksandra Piktus",
+   "Fabio Petroni",
+   "Vladimir Karpukhin",
+   "Naman Goyal",
+   "Heinrich K\u00fcttler",
+   "Mike Lewis",
+   "Wen-tau Yih",
+   "Tim Rockt\u00e4schel",
+   "Sebastian Riedel",
+   "Douwe Kiela"
+  ],
+  "published": "2020-05-22",
+  "journal_ref": null,
+  "doi": null
+ },
+ "1410.3916": {
+  "title": "Memory Networks",
+  "authors": [
+   "Jason Weston",
+   "Sumit Chopra",
+   "Antoine Bordes"
+  ],
+  "published": "2014-10-15",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2304.08467": {
+  "title": "Learning to Compress Prompts with Gist Tokens",
+  "authors": [
+   "Jesse Mu",
+   "Xiang Lisa Li",
+   "Noah Goodman"
+  ],
+  "published": "2023-04-17",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2305.18466": {
+  "title": "Test-Time Training on Nearest Neighbors for Large Language Models",
+  "authors": [
+   "Moritz Hardt",
+   "Yu Sun"
+  ],
+  "published": "2023-05-29",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2402.13449": {
+  "title": "CAMELoT: Towards Large Language Models with Training-Free Consolidated Associative Memory",
+  "authors": [
+   "Zexue He",
+   "Leonid Karlinsky",
+   "Donghyun Kim",
+   "Julian McAuley",
+   "Dmitry Krotov",
+   "Rogerio Feris"
+  ],
+  "published": "2024-02-21",
+  "journal_ref": null,
+  "doi": null
+ },
+ "1611.07725": {
+  "title": "iCaRL: Incremental Classifier and Representation Learning",
+  "authors": [
+   "Sylvestre-Alvise Rebuffi",
+   "Alexander Kolesnikov",
+   "Georg Sperl",
+   "Christoph H. Lampert"
+  ],
+  "published": "2016-11-23",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2507.22925": {
+  "title": "Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents",
+  "authors": [
+   "Haoran Sun",
+   "Shaoning Zeng"
+  ],
+  "published": "2025-07-23",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2604.07798": {
+  "title": "Lightweight LLM Agent Memory with Small Language Models",
+  "authors": [
+   "Jiaquan Zhang",
+   "Chaoning Zhang",
+   "Shuxu Chen",
+   "Zhenzhen Huang",
+   "Pengcheng Zheng",
+   "Zhicheng Wang",
+   "Ping Guo",
+   "Fan Mo",
+   "Sung-Ho Bae",
+   "Jie Zou",
+   "Jiwei Wei",
+   "Yang Yang"
+  ],
+  "published": "2026-04-09",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2608.00814": {
+  "title": "OoO-Spec: Out-of-Order Semantic Speculation for Fast Tool Calling",
+  "authors": [
+   "Zhiheng Zhang",
+   "Mujie Xu",
+   "Feiyu Sun",
+   "Zhixin Zhang"
+  ],
+  "published": "2026-08-01",
+  "journal_ref": null,
+  "doi": null
+ },
+ "2609.19519": {
+  "title": "An Architecture for Long-Horizon Agents: Levels, Ticks and Cascaded Intelligence",
+  "authors": [
+   "Erik Nijkamp",
+   "Anurag Koul",
+   "Egor Pakhomov",
+   "Bo Pang"
+  ],
+  "published": "2026-09-17",
+  "journal_ref": null,
+  "doi": null
+ }
+}

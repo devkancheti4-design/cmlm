@@ -1,0 +1,7949 @@
+{
+ "vector_hop": {
+  "weights_identical": true,
+  "readouts_identical": 63,
+  "probes": 63,
+  "max_score_diff": 0.0,
+  "word_hop_tokens": 590,
+  "vector_hop_tokens": 0
+ },
+ "vector_hop_seconds": 7.3,
+ "real_session": {
+  "turns": 34,
+  "totals": {
+   "cold": 5547550,
+   "warm": 831269,
+   "cmlm": 17816
+  },
+  "per_turn": [
+   {
+    "turn": 1,
+    "cold": 7,
+    "warm": 7.0,
+    "cmlm": 512
+   },
+   {
+    "turn": 2,
+    "cold": 90588,
+    "warm": 113232.75,
+    "cmlm": 516
+   },
+   {
+    "turn": 3,
+    "cold": 90803,
+    "warm": 9332.9,
+    "cmlm": 538
+   },
+   {
+    "turn": 4,
+    "cold": 91204,
+    "warm": 9599.550000000001,
+    "cmlm": 538
+   },
+   {
+    "turn": 5,
+    "cold": 91836,
+    "warm": 9929.65,
+    "cmlm": 528
+   },
+   {
+    "turn": 6,
+    "cold": 92192,
+    "warm": 9644.85,
+    "cmlm": 506
+   },
+   {
+    "turn": 7,
+    "cold": 92274,
+    "warm": 9321.300000000001,
+    "cmlm": 538
+   },
+   {
+    "turn": 8,
+    "cold": 92369,
+    "warm": 9364.15,
+    "cmlm": 538
+   },
+   {
+    "turn": 9,
+    "cold": 92541,
+    "warm": 9472.65,
+    "cmlm": 516
+   },
+   {
+    "turn": 10,
+    "cold": 93031,
+    "warm": 9871.95,
+    "cmlm": 538
+   },
+   {
+    "turn": 11,
+    "cold": 93144,
+    "warm": 9462.35,
+    "cmlm": 538
+   },
+   {
+    "turn": 12,
+    "cold": 112038,
+    "warm": 32954.4,
+    "cmlm": 502
+   },
+   {
+    "turn": 13,
+    "cold": 139852,
+    "warm": 45969.85,
+    "cmlm": 528
+   },
+   {
+    "turn": 14,
+    "cold": 149454,
+    "warm": 26000.7,
+    "cmlm": 532
+   },
+   {
+    "turn": 15,
+    "cold": 162889,
+    "warm": 31753.7,
+    "cmlm": 538
+   },
+   {
+    "turn": 16,
+    "cold": 163168,
+    "warm": 16659.65,
+    "cmlm": 506
+   },
+   {
+    "turn": 17,
+    "cold": 163232,
+    "warm": 16400.15,
+    "cmlm": 508
+   },
+   {
+    "turn": 18,
+    "cold": 163498,
+    "warm": 16656.45,
+    "cmlm": 538
+   },
+   {
+    "turn": 19,
+    "cold": 191989,
+    "warm": 51985.55,
+    "cmlm": 506
+   },
+   {
+    "turn": 20,
+    "cold": 192072,
+    "warm": 19302.25,
+    "cmlm": 538
+   },
+   {
+    "turn": 21,
+    "cold": 210455,
+    "warm": 42206.95,
+    "cmlm": 514
+   },
+   {
+    "turn": 22,
+    "cold": 210544,
+    "warm": 21164.45,
+    "cmlm": 510
+   },
+   {
+    "turn": 23,
+    "cold": 213107,
+    "warm": 24260.050000000003,
+    "cmlm": 538
+   },
+   {
+    "turn": 24,
+    "cold": 219043,
+    "warm": 28748.7,
+    "cmlm": 538
+   },
+   {
+    "turn": 25,
+    "cold": 219650,
+    "warm": 22681.050000000003,
+    "cmlm": 538
+   },
+   {
+    "turn": 26,
+    "cold": 230072,
+    "warm": 35015.25,
+    "cmlm": 500
+   },
+   {
+    "turn": 27,
+    "cold": 230528,
+    "warm": 23577.350000000002,
+    "cmlm": 506
+   },
+   {
+    "turn": 28,
+    "cold": 230622,
+    "warm": 23171.15,
+    "cmlm": 528
+   },
+   {
+    "turn": 29,
+    "cold": 232722,
+    "warm": 25699.7,
+    "cmlm": 536
+   },
+   {
+    "turn": 30,
+    "cold": 232937,
+    "warm": 23559.300000000003,
+    "cmlm": 526
+   },
+   {
+    "turn": 31,
+    "cold": 239631,
+    "warm": 31676.050000000003,
+    "cmlm": 508
+   },
+   {
+    "turn": 32,
+    "cold": 239861,
+    "warm": 24253.600000000002,
+    "cmlm": 520
+   },
+   {
+    "turn": 33,
+    "cold": 240088,
+    "warm": 24277.5,
+    "cmlm": 538
+   },
+   {
+    "turn": 34,
+    "cold": 240109,
+    "warm": 24056.050000000003,
+    "cmlm": 514
+   }
+  ],
+  "warm_cheaper_than_cmlm_on_turns": [
+   1
+  ]
+ },
+ "real_session_seconds": 0.0,
+ "t9": {
+  "flat": {
+   "final_recall": {
+    "trained": 0.479,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.606,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.872,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.641,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.9,
+    "sent_max": 469.4,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 59.9,
+   "wall_s_per_session": 3.6,
+   "self_recall_last": 0.969,
+   "worst_final": 0.417,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.4792,
+     "sd": 0.0512,
+     "ci95": [
+      0.4552,
+      0.5032
+     ],
+     "min": 0.417,
+     "max": 0.567
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6057,
+     "sd": 0.0422,
+     "ci95": [
+      0.5859,
+      0.6254
+     ],
+     "min": 0.545,
+     "max": 0.702
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.9,
+     "sd": 4.1915,
+     "ci95": [
+      458.9384,
+      462.8616
+     ],
+     "min": 455,
+     "max": 470
+    }
+   }
+  },
+  "tree": {
+   "final_recall": {
+    "trained": 0.578,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0,
+    "route2": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.638,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0,
+     "route2": 1.0
+    },
+    "recent": {
+     "trained": 0.865,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0,
+     "route2": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.668,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0,
+    "route2": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.3,
+    "sent_max": 469.5,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 98.0,
+   "wall_s_per_session": 5.9,
+   "self_recall_last": 0.992,
+   "worst_final": 0.45,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": {
+    "children_mean": 3.0,
+    "closed": 40,
+    "why": {
+     "forgetting": 0,
+     "cap": 40
+    },
+    "self_recall_at_close": 0.991
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5782,
+     "sd": 0.0546,
+     "ci95": [
+      0.5527,
+      0.6038
+     ],
+     "min": 0.45,
+     "max": 0.683
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6383,
+     "sd": 0.0307,
+     "ci95": [
+      0.6239,
+      0.6527
+     ],
+     "min": 0.566,
+     "max": 0.691
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.3,
+     "sd": 4.4733,
+     "ci95": [
+      458.2064,
+      462.3936
+     ],
+     "min": 453,
+     "max": 472
+    }
+   },
+   "vs_flat": {
+    "n": 20,
+    "mean": 0.099,
+    "sd": 0.0677,
+    "ci95": [
+     0.0674,
+     0.1307
+    ],
+    "min": -0.017,
+    "max": 0.25,
+    "wins": 18,
+    "of": 20
+   }
+  },
+  "recursive": {
+   "final_recall": {
+    "trained": 0.55,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.62,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.862,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.652,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.6,
+    "sent_max": 470.0,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 67.2,
+   "wall_s_per_session": 4.0,
+   "self_recall_last": 0.989,
+   "worst_final": 0.4,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 2.0,
+    "demoted": 600,
+    "why": {
+     "forgetting": 0,
+     "cap": 600
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.55,
+     "sd": 0.0605,
+     "ci95": [
+      0.5217,
+      0.5782
+     ],
+     "min": 0.4,
+     "max": 0.633
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6195,
+     "sd": 0.0339,
+     "ci95": [
+      0.6036,
+      0.6354
+     ],
+     "min": 0.57,
+     "max": 0.69
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.55,
+     "sd": 5.0417,
+     "ci95": [
+      458.1905,
+      462.9095
+     ],
+     "min": 453,
+     "max": 473
+    }
+   },
+   "vs_flat": {
+    "n": 20,
+    "mean": 0.0708,
+    "sd": 0.0586,
+    "ci95": [
+     0.0433,
+     0.0982
+    ],
+    "min": -0.034,
+    "max": 0.183,
+    "wins": 17,
+    "of": 20
+   }
+  }
+ },
+ "t9_seconds": 297.7,
+ "t10": {
+  "flat": {
+   "final_recall": {
+    "trained": 0.237,
+    "matching": 0.041,
+    "window": 0.0,
+    "probes": 50,
+    "facts": 1499,
+    "ceiling": 0.4
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.32,
+     "matching": 0.079,
+     "window": 0.0,
+     "probes": 2783,
+     "facts": 45471,
+     "ceiling": 0.625
+    },
+    "recent": {
+     "trained": 0.956,
+     "matching": 0.728,
+     "window": 0.0,
+     "probes": 150,
+     "facts": 272,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.324,
+    "matching": 0.083,
+    "window": 0.0,
+    "probes": 2933,
+    "facts": 45743,
+    "ceiling": 0.627
+   },
+   "final": {
+    "transcript_tokens": 983286.4,
+    "sent_tokens": 559.6,
+    "sent_max": 571.8,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 87.9,
+   "wall_s_per_session": 26.4,
+   "self_recall_last": 0.814,
+   "worst_final": 0.194,
+   "trained_beats_matching": 5,
+   "exact": {
+    "known": 12440,
+    "hit": 1.0,
+    "unknown": 900,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 10330,
+    "newest": 1.0
+   },
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 5,
+     "mean": 0.2368,
+     "sd": 0.0354,
+     "ci95": [
+      0.1928,
+      0.2808
+     ],
+     "min": 0.194,
+     "max": 0.287
+    },
+    "old": {
+     "n": 5,
+     "mean": 0.3202,
+     "sd": 0.0037,
+     "ci95": [
+      0.3156,
+      0.3248
+     ],
+     "min": 0.317,
+     "max": 0.326
+    },
+    "sent": {
+     "n": 5,
+     "mean": 559.6,
+     "sd": 4.4497,
+     "ci95": [
+      554.0758,
+      565.1242
+     ],
+     "min": 554,
+     "max": 565
+    }
+   },
+   "seed1_checkpoints": [
+    {
+     "turn": 50,
+     "recall": 0.68,
+     "ceiling": 1.0,
+     "share": 0.68
+    },
+    {
+     "turn": 100,
+     "recall": 0.42,
+     "ceiling": 0.94,
+     "share": 0.4468
+    },
+    {
+     "turn": 150,
+     "recall": 0.3667,
+     "ceiling": 0.7733,
+     "share": 0.4741
+    },
+    {
+     "turn": 200,
+     "recall": 0.275,
+     "ceiling": 0.6,
+     "share": 0.4583
+    },
+    {
+     "turn": 250,
+     "recall": 0.252,
+     "ceiling": 0.48,
+     "share": 0.525
+    },
+    {
+     "turn": 300,
+     "recall": 0.194,
+     "ceiling": 0.4013,
+     "share": 0.4833
+    }
+   ],
+   "seed1_per_turn": [
+    {
+     "t": 1,
+     "sent": 378,
+     "transcript": 3457
+    },
+    {
+     "t": 2,
+     "sent": 383,
+     "transcript": 6724
+    },
+    {
+     "t": 3,
+     "sent": 398,
+     "transcript": 9990
+    },
+    {
+     "t": 4,
+     "sent": 409,
+     "transcript": 13275
+    },
+    {
+     "t": 5,
+     "sent": 430,
+     "transcript": 16541
+    },
+    {
+     "t": 6,
+     "sent": 446,
+     "transcript": 19833
+    },
+    {
+     "t": 7,
+     "sent": 465,
+     "transcript": 23102
+    },
+    {
+     "t": 8,
+     "sent": 484,
+     "transcript": 26360
+    },
+    {
+     "t": 9,
+     "sent": 493,
+     "transcript": 29627
+    },
+    {
+     "t": 10,
+     "sent": 509,
+     "transcript": 32891
+    },
+    {
+     "t": 11,
+     "sent": 526,
+     "transcript": 36167
+    },
+    {
+     "t": 12,
+     "sent": 540,
+     "transcript": 39460
+    },
+    {
+     "t": 13,
+     "sent": 564,
+     "transcript": 42743
+    },
+    {
+     "t": 14,
+     "sent": 564,
+     "transcript": 46026
+    },
+    {
+     "t": 15,
+     "sent": 555,
+     "transcript": 49293
+    },
+    {
+     "t": 16,
+     "sent": 561,
+     "transcript": 52571
+    },
+    {
+     "t": 17,
+     "sent": 555,
+     "transcript": 55848
+    },
+    {
+     "t": 18,
+     "sent": 553,
+     "transcript": 59095
+    },
+    {
+     "t": 19,
+     "sent": 559,
+     "transcript": 62369
+    },
+    {
+     "t": 20,
+     "sent": 561,
+     "transcript": 65646
+    },
+    {
+     "t": 21,
+     "sent": 563,
+     "transcript": 68928
+    },
+    {
+     "t": 22,
+     "sent": 557,
+     "transcript": 72189
+    },
+    {
+     "t": 23,
+     "sent": 562,
+     "transcript": 75453
+    },
+    {
+     "t": 24,
+     "sent": 552,
+     "transcript": 78715
+    },
+    {
+     "t": 25,
+     "sent": 562,
+     "transcript": 81979
+    },
+    {
+     "t": 26,
+     "sent": 554,
+     "transcript": 85266
+    },
+    {
+     "t": 27,
+     "sent": 560,
+     "transcript": 88516
+    },
+    {
+     "t": 28,
+     "sent": 557,
+     "transcript": 91782
+    },
+    {
+     "t": 29,
+     "sent": 554,
+     "transcript": 95054
+    },
+    {
+     "t": 30,
+     "sent": 558,
+     "transcript": 98323
+    },
+    {
+     "t": 31,
+     "sent": 558,
+     "transcript": 101601
+    },
+    {
+     "t": 32,
+     "sent": 552,
+     "transcript": 104860
+    },
+    {
+     "t": 33,
+     "sent": 555,
+     "transcript": 108149
+    },
+    {
+     "t": 34,
+     "sent": 553,
+     "transcript": 111430
+    },
+    {
+     "t": 35,
+     "sent": 558,
+     "transcript": 114711
+    },
+    {
+     "t": 36,
+     "sent": 556,
+     "transcript": 117993
+    },
+    {
+     "t": 37,
+     "sent": 560,
+     "transcript": 121269
+    },
+    {
+     "t": 38,
+     "sent": 563,
+     "transcript": 124543
+    },
+    {
+     "t": 39,
+     "sent": 559,
+     "transcript": 127822
+    },
+    {
+     "t": 40,
+     "sent": 558,
+     "transcript": 131098
+    },
+    {
+     "t": 41,
+     "sent": 556,
+     "transcript": 134353
+    },
+    {
+     "t": 42,
+     "sent": 553,
+     "transcript": 137633
+    },
+    {
+     "t": 43,
+     "sent": 564,
+     "transcript": 140940
+    },
+    {
+     "t": 44,
+     "sent": 564,
+     "transcript": 144230
+    },
+    {
+     "t": 45,
+     "sent": 559,
+     "transcript": 147531
+    },
+    {
+     "t": 46,
+     "sent": 553,
+     "transcript": 150811
+    },
+    {
+     "t": 47,
+     "sent": 555,
+     "transcript": 154088
+    },
+    {
+     "t": 48,
+     "sent": 558,
+     "transcript": 157357
+    },
+    {
+     "t": 49,
+     "sent": 555,
+     "transcript": 160645
+    },
+    {
+     "t": 50,
+     "sent": 553,
+     "transcript": 163931
+    },
+    {
+     "t": 51,
+     "sent": 556,
+     "transcript": 167211
+    },
+    {
+     "t": 52,
+     "sent": 549,
+     "transcript": 170493
+    },
+    {
+     "t": 53,
+     "sent": 559,
+     "transcript": 173749
+    },
+    {
+     "t": 54,
+     "sent": 566,
+     "transcript": 177037
+    },
+    {
+     "t": 55,
+     "sent": 551,
+     "transcript": 180331
+    },
+    {
+     "t": 56,
+     "sent": 556,
+     "transcript": 183581
+    },
+    {
+     "t": 57,
+     "sent": 561,
+     "transcript": 186857
+    },
+    {
+     "t": 58,
+     "sent": 555,
+     "transcript": 190126
+    },
+    {
+     "t": 59,
+     "sent": 560,
+     "transcript": 193381
+    },
+    {
+     "t": 60,
+     "sent": 555,
+     "transcript": 196658
+    },
+    {
+     "t": 61,
+     "sent": 550,
+     "transcript": 199931
+    },
+    {
+     "t": 62,
+     "sent": 558,
+     "transcript": 203200
+    },
+    {
+     "t": 63,
+     "sent": 555,
+     "transcript": 206447
+    },
+    {
+     "t": 64,
+     "sent": 552,
+     "transcript": 209719
+    },
+    {
+     "t": 65,
+     "sent": 546,
+     "transcript": 212980
+    },
+    {
+     "t": 66,
+     "sent": 564,
+     "transcript": 216285
+    },
+    {
+     "t": 67,
+     "sent": 553,
+     "transcript": 219573
+    },
+    {
+     "t": 68,
+     "sent": 552,
+     "transcript": 222852
+    },
+    {
+     "t": 69,
+     "sent": 561,
+     "transcript": 226087
+    },
+    {
+     "t": 70,
+     "sent": 559,
+     "transcript": 229360
+    },
+    {
+     "t": 71,
+     "sent": 551,
+     "transcript": 232623
+    },
+    {
+     "t": 72,
+     "sent": 552,
+     "transcript": 235896
+    },
+    {
+     "t": 73,
+     "sent": 554,
+     "transcript": 239179
+    },
+    {
+     "t": 74,
+     "sent": 553,
+     "transcript": 242476
+    },
+    {
+     "t": 75,
+     "sent": 550,
+     "transcript": 245735
+    },
+    {
+     "t": 76,
+     "sent": 564,
+     "transcript": 248998
+    },
+    {
+     "t": 77,
+     "sent": 558,
+     "transcript": 252277
+    },
+    {
+     "t": 78,
+     "sent": 564,
+     "transcript": 255555
+    },
+    {
+     "t": 79,
+     "sent": 561,
+     "transcript": 258848
+    },
+    {
+     "t": 80,
+     "sent": 562,
+     "transcript": 262102
+    },
+    {
+     "t": 81,
+     "sent": 556,
+     "transcript": 265342
+    },
+    {
+     "t": 82,
+     "sent": 556,
+     "transcript": 268633
+    },
+    {
+     "t": 83,
+     "sent": 556,
+     "transcript": 271910
+    },
+    {
+     "t": 84,
+     "sent": 548,
+     "transcript": 275183
+    },
+    {
+     "t": 85,
+     "sent": 553,
+     "transcript": 278472
+    },
+    {
+     "t": 86,
+     "sent": 551,
+     "transcript": 281758
+    },
+    {
+     "t": 87,
+     "sent": 558,
+     "transcript": 285047
+    },
+    {
+     "t": 88,
+     "sent": 555,
+     "transcript": 288315
+    },
+    {
+     "t": 89,
+     "sent": 553,
+     "transcript": 291593
+    },
+    {
+     "t": 90,
+     "sent": 563,
+     "transcript": 294862
+    },
+    {
+     "t": 91,
+     "sent": 549,
+     "transcript": 298096
+    },
+    {
+     "t": 92,
+     "sent": 560,
+     "transcript": 301368
+    },
+    {
+     "t": 93,
+     "sent": 560,
+     "transcript": 304697
+    },
+    {
+     "t": 94,
+     "sent": 562,
+     "transcript": 307977
+    },
+    {
+     "t": 95,
+     "sent": 558,
+     "transcript": 311235
+    },
+    {
+     "t": 96,
+     "sent": 561,
+     "transcript": 314513
+    },
+    {
+     "t": 97,
+     "sent": 559,
+     "transcript": 317762
+    },
+    {
+     "t": 98,
+     "sent": 551,
+     "transcript": 321026
+    },
+    {
+     "t": 99,
+     "sent": 556,
+     "transcript": 324272
+    },
+    {
+     "t": 100,
+     "sent": 559,
+     "transcript": 327530
+    },
+    {
+     "t": 101,
+     "sent": 555,
+     "transcript": 330793
+    },
+    {
+     "t": 102,
+     "sent": 554,
+     "transcript": 334061
+    },
+    {
+     "t": 103,
+     "sent": 561,
+     "transcript": 337332
+    },
+    {
+     "t": 104,
+     "sent": 557,
+     "transcript": 340630
+    },
+    {
+     "t": 105,
+     "sent": 554,
+     "transcript": 343897
+    },
+    {
+     "t": 106,
+     "sent": 561,
+     "transcript": 347178
+    },
+    {
+     "t": 107,
+     "sent": 556,
+     "transcript": 350460
+    },
+    {
+     "t": 108,
+     "sent": 549,
+     "transcript": 353754
+    },
+    {
+     "t": 109,
+     "sent": 551,
+     "transcript": 357033
+    },
+    {
+     "t": 110,
+     "sent": 558,
+     "transcript": 360303
+    },
+    {
+     "t": 111,
+     "sent": 557,
+     "transcript": 363578
+    },
+    {
+     "t": 112,
+     "sent": 552,
+     "transcript": 366874
+    },
+    {
+     "t": 113,
+     "sent": 554,
+     "transcript": 370182
+    },
+    {
+     "t": 114,
+     "sent": 550,
+     "transcript": 373464
+    },
+    {
+     "t": 115,
+     "sent": 560,
+     "transcript": 376751
+    },
+    {
+     "t": 116,
+     "sent": 557,
+     "transcript": 380020
+    },
+    {
+     "t": 117,
+     "sent": 554,
+     "transcript": 383297
+    },
+    {
+     "t": 118,
+     "sent": 556,
+     "transcript": 386596
+    },
+    {
+     "t": 119,
+     "sent": 568,
+     "transcript": 389890
+    },
+    {
+     "t": 120,
+     "sent": 560,
+     "transcript": 393172
+    },
+    {
+     "t": 121,
+     "sent": 569,
+     "transcript": 396457
+    },
+    {
+     "t": 122,
+     "sent": 556,
+     "transcript": 399731
+    },
+    {
+     "t": 123,
+     "sent": 549,
+     "transcript": 403011
+    },
+    {
+     "t": 124,
+     "sent": 551,
+     "transcript": 406266
+    },
+    {
+     "t": 125,
+     "sent": 558,
+     "transcript": 409547
+    },
+    {
+     "t": 126,
+     "sent": 558,
+     "transcript": 412823
+    },
+    {
+     "t": 127,
+     "sent": 559,
+     "transcript": 416105
+    },
+    {
+     "t": 128,
+     "sent": 557,
+     "transcript": 419402
+    },
+    {
+     "t": 129,
+     "sent": 551,
+     "transcript": 422665
+    },
+    {
+     "t": 130,
+     "sent": 558,
+     "transcript": 425938
+    },
+    {
+     "t": 131,
+     "sent": 557,
+     "transcript": 429217
+    },
+    {
+     "t": 132,
+     "sent": 555,
+     "transcript": 432511
+    },
+    {
+     "t": 133,
+     "sent": 554,
+     "transcript": 435790
+    },
+    {
+     "t": 134,
+     "sent": 551,
+     "transcript": 439078
+    },
+    {
+     "t": 135,
+     "sent": 550,
+     "transcript": 442347
+    },
+    {
+     "t": 136,
+     "sent": 559,
+     "transcript": 445642
+    },
+    {
+     "t": 137,
+     "sent": 548,
+     "transcript": 448924
+    },
+    {
+     "t": 138,
+     "sent": 557,
+     "transcript": 452202
+    },
+    {
+     "t": 139,
+     "sent": 555,
+     "transcript": 455470
+    },
+    {
+     "t": 140,
+     "sent": 553,
+     "transcript": 458764
+    },
+    {
+     "t": 141,
+     "sent": 560,
+     "transcript": 462052
+    },
+    {
+     "t": 142,
+     "sent": 545,
+     "transcript": 465327
+    },
+    {
+     "t": 143,
+     "sent": 556,
+     "transcript": 468606
+    },
+    {
+     "t": 144,
+     "sent": 559,
+     "transcript": 471866
+    },
+    {
+     "t": 145,
+     "sent": 562,
+     "transcript": 475132
+    },
+    {
+     "t": 146,
+     "sent": 556,
+     "transcript": 478387
+    },
+    {
+     "t": 147,
+     "sent": 554,
+     "transcript": 481672
+    },
+    {
+     "t": 148,
+     "sent": 554,
+     "transcript": 484926
+    },
+    {
+     "t": 149,
+     "sent": 565,
+     "transcript": 488186
+    },
+    {
+     "t": 150,
+     "sent": 548,
+     "transcript": 491480
+    },
+    {
+     "t": 151,
+     "sent": 557,
+     "transcript": 494762
+    },
+    {
+     "t": 152,
+     "sent": 559,
+     "transcript": 498042
+    },
+    {
+     "t": 153,
+     "sent": 559,
+     "transcript": 501338
+    },
+    {
+     "t": 154,
+     "sent": 557,
+     "transcript": 504604
+    },
+    {
+     "t": 155,
+     "sent": 555,
+     "transcript": 507860
+    },
+    {
+     "t": 156,
+     "sent": 563,
+     "transcript": 511140
+    },
+    {
+     "t": 157,
+     "sent": 547,
+     "transcript": 514419
+    },
+    {
+     "t": 158,
+     "sent": 563,
+     "transcript": 517671
+    },
+    {
+     "t": 159,
+     "sent": 558,
+     "transcript": 520950
+    },
+    {
+     "t": 160,
+     "sent": 559,
+     "transcript": 524226
+    },
+    {
+     "t": 161,
+     "sent": 563,
+     "transcript": 527499
+    },
+    {
+     "t": 162,
+     "sent": 554,
+     "transcript": 530753
+    },
+    {
+     "t": 163,
+     "sent": 560,
+     "transcript": 534034
+    },
+    {
+     "t": 164,
+     "sent": 559,
+     "transcript": 537312
+    },
+    {
+     "t": 165,
+     "sent": 556,
+     "transcript": 540608
+    },
+    {
+     "t": 166,
+     "sent": 548,
+     "transcript": 543889
+    },
+    {
+     "t": 167,
+     "sent": 561,
+     "transcript": 547157
+    },
+    {
+     "t": 168,
+     "sent": 560,
+     "transcript": 550433
+    },
+    {
+     "t": 169,
+     "sent": 565,
+     "transcript": 553708
+    },
+    {
+     "t": 170,
+     "sent": 572,
+     "transcript": 557000
+    },
+    {
+     "t": 171,
+     "sent": 552,
+     "transcript": 560267
+    },
+    {
+     "t": 172,
+     "sent": 563,
+     "transcript": 563536
+    },
+    {
+     "t": 173,
+     "sent": 560,
+     "transcript": 566821
+    },
+    {
+     "t": 174,
+     "sent": 558,
+     "transcript": 570106
+    },
+    {
+     "t": 175,
+     "sent": 555,
+     "transcript": 573388
+    },
+    {
+     "t": 176,
+     "sent": 561,
+     "transcript": 576656
+    },
+    {
+     "t": 177,
+     "sent": 558,
+     "transcript": 579933
+    },
+    {
+     "t": 178,
+     "sent": 562,
+     "transcript": 583201
+    },
+    {
+     "t": 179,
+     "sent": 546,
+     "transcript": 586474
+    },
+    {
+     "t": 180,
+     "sent": 558,
+     "transcript": 589766
+    },
+    {
+     "t": 181,
+     "sent": 563,
+     "transcript": 593052
+    },
+    {
+     "t": 182,
+     "sent": 557,
+     "transcript": 596320
+    },
+    {
+     "t": 183,
+     "sent": 546,
+     "transcript": 599578
+    },
+    {
+     "t": 184,
+     "sent": 562,
+     "transcript": 602852
+    },
+    {
+     "t": 185,
+     "sent": 551,
+     "transcript": 606134
+    },
+    {
+     "t": 186,
+     "sent": 562,
+     "transcript": 609408
+    },
+    {
+     "t": 187,
+     "sent": 553,
+     "transcript": 612702
+    },
+    {
+     "t": 188,
+     "sent": 554,
+     "transcript": 615975
+    },
+    {
+     "t": 189,
+     "sent": 562,
+     "transcript": 619231
+    },
+    {
+     "t": 190,
+     "sent": 561,
+     "transcript": 622516
+    },
+    {
+     "t": 191,
+     "sent": 566,
+     "transcript": 625780
+    },
+    {
+     "t": 192,
+     "sent": 562,
+     "transcript": 629056
+    },
+    {
+     "t": 193,
+     "sent": 557,
+     "transcript": 632319
+    },
+    {
+     "t": 194,
+     "sent": 556,
+     "transcript": 635562
+    },
+    {
+     "t": 195,
+     "sent": 567,
+     "transcript": 638834
+    },
+    {
+     "t": 196,
+     "sent": 554,
+     "transcript": 642104
+    },
+    {
+     "t": 197,
+     "sent": 557,
+     "transcript": 645385
+    },
+    {
+     "t": 198,
+     "sent": 558,
+     "transcript": 648692
+    },
+    {
+     "t": 199,
+     "sent": 554,
+     "transcript": 651953
+    },
+    {
+     "t": 200,
+     "sent": 560,
+     "transcript": 655230
+    },
+    {
+     "t": 201,
+     "sent": 558,
+     "transcript": 658512
+    },
+    {
+     "t": 202,
+     "sent": 561,
+     "transcript": 661757
+    },
+    {
+     "t": 203,
+     "sent": 562,
+     "transcript": 665056
+    },
+    {
+     "t": 204,
+     "sent": 548,
+     "transcript": 668363
+    },
+    {
+     "t": 205,
+     "sent": 556,
+     "transcript": 671655
+    },
+    {
+     "t": 206,
+     "sent": 556,
+     "transcript": 674920
+    },
+    {
+     "t": 207,
+     "sent": 570,
+     "transcript": 678190
+    },
+    {
+     "t": 208,
+     "sent": 556,
+     "transcript": 681483
+    },
+    {
+     "t": 209,
+     "sent": 563,
+     "transcript": 684780
+    },
+    {
+     "t": 210,
+     "sent": 553,
+     "transcript": 688069
+    },
+    {
+     "t": 211,
+     "sent": 555,
+     "transcript": 691357
+    },
+    {
+     "t": 212,
+     "sent": 562,
+     "transcript": 694661
+    },
+    {
+     "t": 213,
+     "sent": 559,
+     "transcript": 697937
+    },
+    {
+     "t": 214,
+     "sent": 560,
+     "transcript": 701206
+    },
+    {
+     "t": 215,
+     "sent": 565,
+     "transcript": 704490
+    },
+    {
+     "t": 216,
+     "sent": 552,
+     "transcript": 707765
+    },
+    {
+     "t": 217,
+     "sent": 547,
+     "transcript": 711024
+    },
+    {
+     "t": 218,
+     "sent": 560,
+     "transcript": 714300
+    },
+    {
+     "t": 219,
+     "sent": 560,
+     "transcript": 717551
+    },
+    {
+     "t": 220,
+     "sent": 561,
+     "transcript": 720823
+    },
+    {
+     "t": 221,
+     "sent": 560,
+     "transcript": 724088
+    },
+    {
+     "t": 222,
+     "sent": 555,
+     "transcript": 727371
+    },
+    {
+     "t": 223,
+     "sent": 561,
+     "transcript": 730669
+    },
+    {
+     "t": 224,
+     "sent": 566,
+     "transcript": 733957
+    },
+    {
+     "t": 225,
+     "sent": 564,
+     "transcript": 737201
+    },
+    {
+     "t": 226,
+     "sent": 565,
+     "transcript": 740447
+    },
+    {
+     "t": 227,
+     "sent": 559,
+     "transcript": 743715
+    },
+    {
+     "t": 228,
+     "sent": 545,
+     "transcript": 746992
+    },
+    {
+     "t": 229,
+     "sent": 562,
+     "transcript": 750280
+    },
+    {
+     "t": 230,
+     "sent": 563,
+     "transcript": 753528
+    },
+    {
+     "t": 231,
+     "sent": 555,
+     "transcript": 756781
+    },
+    {
+     "t": 232,
+     "sent": 560,
+     "transcript": 760059
+    },
+    {
+     "t": 233,
+     "sent": 565,
+     "transcript": 763333
+    },
+    {
+     "t": 234,
+     "sent": 558,
+     "transcript": 766614
+    },
+    {
+     "t": 235,
+     "sent": 552,
+     "transcript": 769900
+    },
+    {
+     "t": 236,
+     "sent": 556,
+     "transcript": 773176
+    },
+    {
+     "t": 237,
+     "sent": 561,
+     "transcript": 776425
+    },
+    {
+     "t": 238,
+     "sent": 549,
+     "transcript": 779705
+    },
+    {
+     "t": 239,
+     "sent": 554,
+     "transcript": 782968
+    },
+    {
+     "t": 240,
+     "sent": 567,
+     "transcript": 786249
+    },
+    {
+     "t": 241,
+     "sent": 557,
+     "transcript": 789531
+    },
+    {
+     "t": 242,
+     "sent": 547,
+     "transcript": 792795
+    },
+    {
+     "t": 243,
+     "sent": 555,
+     "transcript": 796053
+    },
+    {
+     "t": 244,
+     "sent": 561,
+     "transcript": 799333
+    },
+    {
+     "t": 245,
+     "sent": 566,
+     "transcript": 802614
+    },
+    {
+     "t": 246,
+     "sent": 558,
+     "transcript": 805892
+    },
+    {
+     "t": 247,
+     "sent": 569,
+     "transcript": 809163
+    },
+    {
+     "t": 248,
+     "sent": 555,
+     "transcript": 812454
+    },
+    {
+     "t": 249,
+     "sent": 561,
+     "transcript": 815735
+    },
+    {
+     "t": 250,
+     "sent": 565,
+     "transcript": 819027
+    },
+    {
+     "t": 251,
+     "sent": 559,
+     "transcript": 822312
+    },
+    {
+     "t": 252,
+     "sent": 560,
+     "transcript": 825611
+    },
+    {
+     "t": 253,
+     "sent": 558,
+     "transcript": 828883
+    },
+    {
+     "t": 254,
+     "sent": 549,
+     "transcript": 832156
+    },
+    {
+     "t": 255,
+     "sent": 558,
+     "transcript": 835444
+    },
+    {
+     "t": 256,
+     "sent": 540,
+     "transcript": 838733
+    },
+    {
+     "t": 257,
+     "sent": 552,
+     "transcript": 842005
+    },
+    {
+     "t": 258,
+     "sent": 556,
+     "transcript": 845309
+    },
+    {
+     "t": 259,
+     "sent": 557,
+     "transcript": 848562
+    },
+    {
+     "t": 260,
+     "sent": 568,
+     "transcript": 851827
+    },
+    {
+     "t": 261,
+     "sent": 558,
+     "transcript": 855109
+    },
+    {
+     "t": 262,
+     "sent": 560,
+     "transcript": 858412
+    },
+    {
+     "t": 263,
+     "sent": 556,
+     "transcript": 861666
+    },
+    {
+     "t": 264,
+     "sent": 556,
+     "transcript": 864927
+    },
+    {
+     "t": 265,
+     "sent": 560,
+     "transcript": 868216
+    },
+    {
+     "t": 266,
+     "sent": 564,
+     "transcript": 871495
+    },
+    {
+     "t": 267,
+     "sent": 558,
+     "transcript": 874803
+    },
+    {
+     "t": 268,
+     "sent": 545,
+     "transcript": 878098
+    },
+    {
+     "t": 269,
+     "sent": 557,
+     "transcript": 881366
+    },
+    {
+     "t": 270,
+     "sent": 556,
+     "transcript": 884629
+    },
+    {
+     "t": 271,
+     "sent": 562,
+     "transcript": 887902
+    },
+    {
+     "t": 272,
+     "sent": 563,
+     "transcript": 891164
+    },
+    {
+     "t": 273,
+     "sent": 564,
+     "transcript": 894437
+    },
+    {
+     "t": 274,
+     "sent": 562,
+     "transcript": 897722
+    },
+    {
+     "t": 275,
+     "sent": 558,
+     "transcript": 900984
+    },
+    {
+     "t": 276,
+     "sent": 562,
+     "transcript": 904232
+    },
+    {
+     "t": 277,
+     "sent": 551,
+     "transcript": 907512
+    },
+    {
+     "t": 278,
+     "sent": 548,
+     "transcript": 910772
+    },
+    {
+     "t": 279,
+     "sent": 565,
+     "transcript": 914061
+    },
+    {
+     "t": 280,
+     "sent": 568,
+     "transcript": 917348
+    },
+    {
+     "t": 281,
+     "sent": 558,
+     "transcript": 920641
+    },
+    {
+     "t": 282,
+     "sent": 556,
+     "transcript": 923922
+    },
+    {
+     "t": 283,
+     "sent": 562,
+     "transcript": 927202
+    },
+    {
+     "t": 284,
+     "sent": 551,
+     "transcript": 930485
+    },
+    {
+     "t": 285,
+     "sent": 543,
+     "transcript": 933765
+    },
+    {
+     "t": 286,
+     "sent": 564,
+     "transcript": 937028
+    },
+    {
+     "t": 287,
+     "sent": 544,
+     "transcript": 940286
+    },
+    {
+     "t": 288,
+     "sent": 559,
+     "transcript": 943571
+    },
+    {
+     "t": 289,
+     "sent": 560,
+     "transcript": 946881
+    },
+    {
+     "t": 290,
+     "sent": 555,
+     "transcript": 950158
+    },
+    {
+     "t": 291,
+     "sent": 563,
+     "transcript": 953436
+    },
+    {
+     "t": 292,
+     "sent": 553,
+     "transcript": 956693
+    },
+    {
+     "t": 293,
+     "sent": 555,
+     "transcript": 959967
+    },
+    {
+     "t": 294,
+     "sent": 563,
+     "transcript": 963262
+    },
+    {
+     "t": 295,
+     "sent": 560,
+     "transcript": 966538
+    },
+    {
+     "t": 296,
+     "sent": 565,
+     "transcript": 969808
+    },
+    {
+     "t": 297,
+     "sent": 569,
+     "transcript": 973092
+    },
+    {
+     "t": 298,
+     "sent": 565,
+     "transcript": 976363
+    },
+    {
+     "t": 299,
+     "sent": 563,
+     "transcript": 979638
+    },
+    {
+     "t": 300,
+     "sent": 559,
+     "transcript": 982924
+    }
+   ]
+  },
+  "tree": {
+   "final_recall": {
+    "trained": 0.324,
+    "matching": 0.041,
+    "window": 0.0,
+    "probes": 50,
+    "facts": 1499,
+    "ceiling": 0.4
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.436,
+     "matching": 0.079,
+     "window": 0.0,
+     "probes": 2783,
+     "facts": 45471,
+     "ceiling": 0.625
+    },
+    "recent": {
+     "trained": 0.952,
+     "matching": 0.728,
+     "window": 0.0,
+     "probes": 150,
+     "facts": 272,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.439,
+    "matching": 0.083,
+    "window": 0.0,
+    "probes": 2933,
+    "facts": 45743,
+    "ceiling": 0.627
+   },
+   "final": {
+    "transcript_tokens": 983286.4,
+    "sent_tokens": 558.0,
+    "sent_max": 572.2,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 118.9,
+   "wall_s_per_session": 35.7,
+   "self_recall_last": 0.993,
+   "worst_final": 0.307,
+   "trained_beats_matching": 5,
+   "exact": {
+    "known": 12440,
+    "hit": 1.0,
+    "unknown": 900,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 10330,
+    "newest": 1.0
+   },
+   "tree": {
+    "children_mean": 11.0,
+    "closed": 50,
+    "why": {
+     "forgetting": 0,
+     "cap": 50
+    },
+    "self_recall_at_close": 0.981
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 5,
+     "mean": 0.3242,
+     "sd": 0.0137,
+     "ci95": [
+      0.3072,
+      0.3412
+     ],
+     "min": 0.307,
+     "max": 0.343
+    },
+    "old": {
+     "n": 5,
+     "mean": 0.4358,
+     "sd": 0.0043,
+     "ci95": [
+      0.4305,
+      0.4411
+     ],
+     "min": 0.431,
+     "max": 0.442
+    },
+    "sent": {
+     "n": 5,
+     "mean": 558.0,
+     "sd": 3.1623,
+     "ci95": [
+      554.0741,
+      561.9259
+     ],
+     "min": 553,
+     "max": 561
+    }
+   },
+   "seed1_checkpoints": [
+    {
+     "turn": 50,
+     "recall": 0.78,
+     "ceiling": 1.0,
+     "share": 0.78
+    },
+    {
+     "turn": 100,
+     "recall": 0.56,
+     "ceiling": 0.94,
+     "share": 0.5957
+    },
+    {
+     "turn": 150,
+     "recall": 0.5,
+     "ceiling": 0.7733,
+     "share": 0.6466
+    },
+    {
+     "turn": 200,
+     "recall": 0.425,
+     "ceiling": 0.6,
+     "share": 0.7083
+    },
+    {
+     "turn": 250,
+     "recall": 0.38,
+     "ceiling": 0.48,
+     "share": 0.7917
+    },
+    {
+     "turn": 300,
+     "recall": 0.3311,
+     "ceiling": 0.4013,
+     "share": 0.825
+    }
+   ],
+   "seed1_per_turn": [
+    {
+     "t": 1,
+     "sent": 378,
+     "transcript": 3457
+    },
+    {
+     "t": 2,
+     "sent": 383,
+     "transcript": 6724
+    },
+    {
+     "t": 3,
+     "sent": 398,
+     "transcript": 9990
+    },
+    {
+     "t": 4,
+     "sent": 409,
+     "transcript": 13275
+    },
+    {
+     "t": 5,
+     "sent": 430,
+     "transcript": 16541
+    },
+    {
+     "t": 6,
+     "sent": 446,
+     "transcript": 19833
+    },
+    {
+     "t": 7,
+     "sent": 465,
+     "transcript": 23102
+    },
+    {
+     "t": 8,
+     "sent": 484,
+     "transcript": 26360
+    },
+    {
+     "t": 9,
+     "sent": 493,
+     "transcript": 29627
+    },
+    {
+     "t": 10,
+     "sent": 509,
+     "transcript": 32891
+    },
+    {
+     "t": 11,
+     "sent": 526,
+     "transcript": 36167
+    },
+    {
+     "t": 12,
+     "sent": 540,
+     "transcript": 39460
+    },
+    {
+     "t": 13,
+     "sent": 564,
+     "transcript": 42743
+    },
+    {
+     "t": 14,
+     "sent": 564,
+     "transcript": 46026
+    },
+    {
+     "t": 15,
+     "sent": 555,
+     "transcript": 49293
+    },
+    {
+     "t": 16,
+     "sent": 561,
+     "transcript": 52571
+    },
+    {
+     "t": 17,
+     "sent": 555,
+     "transcript": 55848
+    },
+    {
+     "t": 18,
+     "sent": 553,
+     "transcript": 59095
+    },
+    {
+     "t": 19,
+     "sent": 559,
+     "transcript": 62369
+    },
+    {
+     "t": 20,
+     "sent": 561,
+     "transcript": 65646
+    },
+    {
+     "t": 21,
+     "sent": 563,
+     "transcript": 68928
+    },
+    {
+     "t": 22,
+     "sent": 557,
+     "transcript": 72189
+    },
+    {
+     "t": 23,
+     "sent": 562,
+     "transcript": 75453
+    },
+    {
+     "t": 24,
+     "sent": 552,
+     "transcript": 78715
+    },
+    {
+     "t": 25,
+     "sent": 562,
+     "transcript": 81979
+    },
+    {
+     "t": 26,
+     "sent": 554,
+     "transcript": 85266
+    },
+    {
+     "t": 27,
+     "sent": 560,
+     "transcript": 88516
+    },
+    {
+     "t": 28,
+     "sent": 557,
+     "transcript": 91782
+    },
+    {
+     "t": 29,
+     "sent": 554,
+     "transcript": 95054
+    },
+    {
+     "t": 30,
+     "sent": 558,
+     "transcript": 98323
+    },
+    {
+     "t": 31,
+     "sent": 558,
+     "transcript": 101601
+    },
+    {
+     "t": 32,
+     "sent": 553,
+     "transcript": 104860
+    },
+    {
+     "t": 33,
+     "sent": 555,
+     "transcript": 108149
+    },
+    {
+     "t": 34,
+     "sent": 559,
+     "transcript": 111430
+    },
+    {
+     "t": 35,
+     "sent": 559,
+     "transcript": 114711
+    },
+    {
+     "t": 36,
+     "sent": 558,
+     "transcript": 117993
+    },
+    {
+     "t": 37,
+     "sent": 558,
+     "transcript": 121269
+    },
+    {
+     "t": 38,
+     "sent": 561,
+     "transcript": 124543
+    },
+    {
+     "t": 39,
+     "sent": 557,
+     "transcript": 127822
+    },
+    {
+     "t": 40,
+     "sent": 559,
+     "transcript": 131098
+    },
+    {
+     "t": 41,
+     "sent": 558,
+     "transcript": 134353
+    },
+    {
+     "t": 42,
+     "sent": 552,
+     "transcript": 137633
+    },
+    {
+     "t": 43,
+     "sent": 564,
+     "transcript": 140940
+    },
+    {
+     "t": 44,
+     "sent": 562,
+     "transcript": 144230
+    },
+    {
+     "t": 45,
+     "sent": 556,
+     "transcript": 147531
+    },
+    {
+     "t": 46,
+     "sent": 556,
+     "transcript": 150811
+    },
+    {
+     "t": 47,
+     "sent": 552,
+     "transcript": 154088
+    },
+    {
+     "t": 48,
+     "sent": 559,
+     "transcript": 157357
+    },
+    {
+     "t": 49,
+     "sent": 558,
+     "transcript": 160645
+    },
+    {
+     "t": 50,
+     "sent": 547,
+     "transcript": 163931
+    },
+    {
+     "t": 51,
+     "sent": 559,
+     "transcript": 167211
+    },
+    {
+     "t": 52,
+     "sent": 552,
+     "transcript": 170493
+    },
+    {
+     "t": 53,
+     "sent": 559,
+     "transcript": 173749
+    },
+    {
+     "t": 54,
+     "sent": 563,
+     "transcript": 177037
+    },
+    {
+     "t": 55,
+     "sent": 551,
+     "transcript": 180331
+    },
+    {
+     "t": 56,
+     "sent": 553,
+     "transcript": 183581
+    },
+    {
+     "t": 57,
+     "sent": 561,
+     "transcript": 186857
+    },
+    {
+     "t": 58,
+     "sent": 550,
+     "transcript": 190126
+    },
+    {
+     "t": 59,
+     "sent": 559,
+     "transcript": 193381
+    },
+    {
+     "t": 60,
+     "sent": 552,
+     "transcript": 196658
+    },
+    {
+     "t": 61,
+     "sent": 553,
+     "transcript": 199931
+    },
+    {
+     "t": 62,
+     "sent": 557,
+     "transcript": 203200
+    },
+    {
+     "t": 63,
+     "sent": 558,
+     "transcript": 206447
+    },
+    {
+     "t": 64,
+     "sent": 554,
+     "transcript": 209719
+    },
+    {
+     "t": 65,
+     "sent": 548,
+     "transcript": 212980
+    },
+    {
+     "t": 66,
+     "sent": 560,
+     "transcript": 216285
+    },
+    {
+     "t": 67,
+     "sent": 552,
+     "transcript": 219573
+    },
+    {
+     "t": 68,
+     "sent": 552,
+     "transcript": 222852
+    },
+    {
+     "t": 69,
+     "sent": 553,
+     "transcript": 226087
+    },
+    {
+     "t": 70,
+     "sent": 559,
+     "transcript": 229360
+    },
+    {
+     "t": 71,
+     "sent": 553,
+     "transcript": 232623
+    },
+    {
+     "t": 72,
+     "sent": 556,
+     "transcript": 235896
+    },
+    {
+     "t": 73,
+     "sent": 558,
+     "transcript": 239179
+    },
+    {
+     "t": 74,
+     "sent": 559,
+     "transcript": 242476
+    },
+    {
+     "t": 75,
+     "sent": 551,
+     "transcript": 245735
+    },
+    {
+     "t": 76,
+     "sent": 562,
+     "transcript": 248998
+    },
+    {
+     "t": 77,
+     "sent": 559,
+     "transcript": 252277
+    },
+    {
+     "t": 78,
+     "sent": 564,
+     "transcript": 255555
+    },
+    {
+     "t": 79,
+     "sent": 556,
+     "transcript": 258848
+    },
+    {
+     "t": 80,
+     "sent": 562,
+     "transcript": 262102
+    },
+    {
+     "t": 81,
+     "sent": 550,
+     "transcript": 265342
+    },
+    {
+     "t": 82,
+     "sent": 561,
+     "transcript": 268633
+    },
+    {
+     "t": 83,
+     "sent": 562,
+     "transcript": 271910
+    },
+    {
+     "t": 84,
+     "sent": 551,
+     "transcript": 275183
+    },
+    {
+     "t": 85,
+     "sent": 548,
+     "transcript": 278472
+    },
+    {
+     "t": 86,
+     "sent": 556,
+     "transcript": 281758
+    },
+    {
+     "t": 87,
+     "sent": 555,
+     "transcript": 285047
+    },
+    {
+     "t": 88,
+     "sent": 551,
+     "transcript": 288315
+    },
+    {
+     "t": 89,
+     "sent": 560,
+     "transcript": 291593
+    },
+    {
+     "t": 90,
+     "sent": 558,
+     "transcript": 294862
+    },
+    {
+     "t": 91,
+     "sent": 553,
+     "transcript": 298096
+    },
+    {
+     "t": 92,
+     "sent": 563,
+     "transcript": 301368
+    },
+    {
+     "t": 93,
+     "sent": 554,
+     "transcript": 304697
+    },
+    {
+     "t": 94,
+     "sent": 556,
+     "transcript": 307977
+    },
+    {
+     "t": 95,
+     "sent": 561,
+     "transcript": 311235
+    },
+    {
+     "t": 96,
+     "sent": 555,
+     "transcript": 314513
+    },
+    {
+     "t": 97,
+     "sent": 557,
+     "transcript": 317762
+    },
+    {
+     "t": 98,
+     "sent": 555,
+     "transcript": 321026
+    },
+    {
+     "t": 99,
+     "sent": 557,
+     "transcript": 324272
+    },
+    {
+     "t": 100,
+     "sent": 559,
+     "transcript": 327530
+    },
+    {
+     "t": 101,
+     "sent": 555,
+     "transcript": 330793
+    },
+    {
+     "t": 102,
+     "sent": 555,
+     "transcript": 334061
+    },
+    {
+     "t": 103,
+     "sent": 560,
+     "transcript": 337332
+    },
+    {
+     "t": 104,
+     "sent": 556,
+     "transcript": 340630
+    },
+    {
+     "t": 105,
+     "sent": 557,
+     "transcript": 343897
+    },
+    {
+     "t": 106,
+     "sent": 561,
+     "transcript": 347178
+    },
+    {
+     "t": 107,
+     "sent": 553,
+     "transcript": 350460
+    },
+    {
+     "t": 108,
+     "sent": 549,
+     "transcript": 353754
+    },
+    {
+     "t": 109,
+     "sent": 551,
+     "transcript": 357033
+    },
+    {
+     "t": 110,
+     "sent": 556,
+     "transcript": 360303
+    },
+    {
+     "t": 111,
+     "sent": 566,
+     "transcript": 363578
+    },
+    {
+     "t": 112,
+     "sent": 553,
+     "transcript": 366874
+    },
+    {
+     "t": 113,
+     "sent": 553,
+     "transcript": 370182
+    },
+    {
+     "t": 114,
+     "sent": 560,
+     "transcript": 373464
+    },
+    {
+     "t": 115,
+     "sent": 555,
+     "transcript": 376751
+    },
+    {
+     "t": 116,
+     "sent": 560,
+     "transcript": 380020
+    },
+    {
+     "t": 117,
+     "sent": 555,
+     "transcript": 383297
+    },
+    {
+     "t": 118,
+     "sent": 562,
+     "transcript": 386596
+    },
+    {
+     "t": 119,
+     "sent": 567,
+     "transcript": 389890
+    },
+    {
+     "t": 120,
+     "sent": 559,
+     "transcript": 393172
+    },
+    {
+     "t": 121,
+     "sent": 568,
+     "transcript": 396457
+    },
+    {
+     "t": 122,
+     "sent": 562,
+     "transcript": 399731
+    },
+    {
+     "t": 123,
+     "sent": 554,
+     "transcript": 403011
+    },
+    {
+     "t": 124,
+     "sent": 557,
+     "transcript": 406266
+    },
+    {
+     "t": 125,
+     "sent": 564,
+     "transcript": 409547
+    },
+    {
+     "t": 126,
+     "sent": 557,
+     "transcript": 412823
+    },
+    {
+     "t": 127,
+     "sent": 563,
+     "transcript": 416105
+    },
+    {
+     "t": 128,
+     "sent": 561,
+     "transcript": 419402
+    },
+    {
+     "t": 129,
+     "sent": 556,
+     "transcript": 422665
+    },
+    {
+     "t": 130,
+     "sent": 564,
+     "transcript": 425938
+    },
+    {
+     "t": 131,
+     "sent": 557,
+     "transcript": 429217
+    },
+    {
+     "t": 132,
+     "sent": 561,
+     "transcript": 432511
+    },
+    {
+     "t": 133,
+     "sent": 557,
+     "transcript": 435790
+    },
+    {
+     "t": 134,
+     "sent": 565,
+     "transcript": 439078
+    },
+    {
+     "t": 135,
+     "sent": 552,
+     "transcript": 442347
+    },
+    {
+     "t": 136,
+     "sent": 560,
+     "transcript": 445642
+    },
+    {
+     "t": 137,
+     "sent": 546,
+     "transcript": 448924
+    },
+    {
+     "t": 138,
+     "sent": 548,
+     "transcript": 452202
+    },
+    {
+     "t": 139,
+     "sent": 553,
+     "transcript": 455470
+    },
+    {
+     "t": 140,
+     "sent": 560,
+     "transcript": 458764
+    },
+    {
+     "t": 141,
+     "sent": 562,
+     "transcript": 462052
+    },
+    {
+     "t": 142,
+     "sent": 554,
+     "transcript": 465327
+    },
+    {
+     "t": 143,
+     "sent": 555,
+     "transcript": 468606
+    },
+    {
+     "t": 144,
+     "sent": 564,
+     "transcript": 471866
+    },
+    {
+     "t": 145,
+     "sent": 561,
+     "transcript": 475132
+    },
+    {
+     "t": 146,
+     "sent": 556,
+     "transcript": 478387
+    },
+    {
+     "t": 147,
+     "sent": 558,
+     "transcript": 481672
+    },
+    {
+     "t": 148,
+     "sent": 549,
+     "transcript": 484926
+    },
+    {
+     "t": 149,
+     "sent": 558,
+     "transcript": 488186
+    },
+    {
+     "t": 150,
+     "sent": 551,
+     "transcript": 491480
+    },
+    {
+     "t": 151,
+     "sent": 558,
+     "transcript": 494762
+    },
+    {
+     "t": 152,
+     "sent": 563,
+     "transcript": 498042
+    },
+    {
+     "t": 153,
+     "sent": 567,
+     "transcript": 501338
+    },
+    {
+     "t": 154,
+     "sent": 555,
+     "transcript": 504604
+    },
+    {
+     "t": 155,
+     "sent": 557,
+     "transcript": 507860
+    },
+    {
+     "t": 156,
+     "sent": 559,
+     "transcript": 511140
+    },
+    {
+     "t": 157,
+     "sent": 548,
+     "transcript": 514419
+    },
+    {
+     "t": 158,
+     "sent": 562,
+     "transcript": 517671
+    },
+    {
+     "t": 159,
+     "sent": 556,
+     "transcript": 520950
+    },
+    {
+     "t": 160,
+     "sent": 560,
+     "transcript": 524226
+    },
+    {
+     "t": 161,
+     "sent": 562,
+     "transcript": 527499
+    },
+    {
+     "t": 162,
+     "sent": 548,
+     "transcript": 530753
+    },
+    {
+     "t": 163,
+     "sent": 561,
+     "transcript": 534034
+    },
+    {
+     "t": 164,
+     "sent": 553,
+     "transcript": 537312
+    },
+    {
+     "t": 165,
+     "sent": 561,
+     "transcript": 540608
+    },
+    {
+     "t": 166,
+     "sent": 550,
+     "transcript": 543889
+    },
+    {
+     "t": 167,
+     "sent": 559,
+     "transcript": 547157
+    },
+    {
+     "t": 168,
+     "sent": 560,
+     "transcript": 550433
+    },
+    {
+     "t": 169,
+     "sent": 567,
+     "transcript": 553708
+    },
+    {
+     "t": 170,
+     "sent": 565,
+     "transcript": 557000
+    },
+    {
+     "t": 171,
+     "sent": 563,
+     "transcript": 560267
+    },
+    {
+     "t": 172,
+     "sent": 562,
+     "transcript": 563536
+    },
+    {
+     "t": 173,
+     "sent": 554,
+     "transcript": 566821
+    },
+    {
+     "t": 174,
+     "sent": 557,
+     "transcript": 570106
+    },
+    {
+     "t": 175,
+     "sent": 549,
+     "transcript": 573388
+    },
+    {
+     "t": 176,
+     "sent": 546,
+     "transcript": 576656
+    },
+    {
+     "t": 177,
+     "sent": 553,
+     "transcript": 579933
+    },
+    {
+     "t": 178,
+     "sent": 561,
+     "transcript": 583201
+    },
+    {
+     "t": 179,
+     "sent": 548,
+     "transcript": 586474
+    },
+    {
+     "t": 180,
+     "sent": 558,
+     "transcript": 589766
+    },
+    {
+     "t": 181,
+     "sent": 565,
+     "transcript": 593052
+    },
+    {
+     "t": 182,
+     "sent": 559,
+     "transcript": 596320
+    },
+    {
+     "t": 183,
+     "sent": 550,
+     "transcript": 599578
+    },
+    {
+     "t": 184,
+     "sent": 564,
+     "transcript": 602852
+    },
+    {
+     "t": 185,
+     "sent": 557,
+     "transcript": 606134
+    },
+    {
+     "t": 186,
+     "sent": 553,
+     "transcript": 609408
+    },
+    {
+     "t": 187,
+     "sent": 560,
+     "transcript": 612702
+    },
+    {
+     "t": 188,
+     "sent": 557,
+     "transcript": 615975
+    },
+    {
+     "t": 189,
+     "sent": 569,
+     "transcript": 619231
+    },
+    {
+     "t": 190,
+     "sent": 560,
+     "transcript": 622516
+    },
+    {
+     "t": 191,
+     "sent": 563,
+     "transcript": 625780
+    },
+    {
+     "t": 192,
+     "sent": 562,
+     "transcript": 629056
+    },
+    {
+     "t": 193,
+     "sent": 561,
+     "transcript": 632319
+    },
+    {
+     "t": 194,
+     "sent": 549,
+     "transcript": 635562
+    },
+    {
+     "t": 195,
+     "sent": 565,
+     "transcript": 638834
+    },
+    {
+     "t": 196,
+     "sent": 548,
+     "transcript": 642104
+    },
+    {
+     "t": 197,
+     "sent": 566,
+     "transcript": 645385
+    },
+    {
+     "t": 198,
+     "sent": 561,
+     "transcript": 648692
+    },
+    {
+     "t": 199,
+     "sent": 557,
+     "transcript": 651953
+    },
+    {
+     "t": 200,
+     "sent": 558,
+     "transcript": 655230
+    },
+    {
+     "t": 201,
+     "sent": 563,
+     "transcript": 658512
+    },
+    {
+     "t": 202,
+     "sent": 557,
+     "transcript": 661757
+    },
+    {
+     "t": 203,
+     "sent": 561,
+     "transcript": 665056
+    },
+    {
+     "t": 204,
+     "sent": 557,
+     "transcript": 668363
+    },
+    {
+     "t": 205,
+     "sent": 548,
+     "transcript": 671655
+    },
+    {
+     "t": 206,
+     "sent": 558,
+     "transcript": 674920
+    },
+    {
+     "t": 207,
+     "sent": 566,
+     "transcript": 678190
+    },
+    {
+     "t": 208,
+     "sent": 561,
+     "transcript": 681483
+    },
+    {
+     "t": 209,
+     "sent": 557,
+     "transcript": 684780
+    },
+    {
+     "t": 210,
+     "sent": 564,
+     "transcript": 688069
+    },
+    {
+     "t": 211,
+     "sent": 558,
+     "transcript": 691357
+    },
+    {
+     "t": 212,
+     "sent": 565,
+     "transcript": 694661
+    },
+    {
+     "t": 213,
+     "sent": 567,
+     "transcript": 697937
+    },
+    {
+     "t": 214,
+     "sent": 563,
+     "transcript": 701206
+    },
+    {
+     "t": 215,
+     "sent": 561,
+     "transcript": 704490
+    },
+    {
+     "t": 216,
+     "sent": 558,
+     "transcript": 707765
+    },
+    {
+     "t": 217,
+     "sent": 554,
+     "transcript": 711024
+    },
+    {
+     "t": 218,
+     "sent": 560,
+     "transcript": 714300
+    },
+    {
+     "t": 219,
+     "sent": 558,
+     "transcript": 717551
+    },
+    {
+     "t": 220,
+     "sent": 554,
+     "transcript": 720823
+    },
+    {
+     "t": 221,
+     "sent": 560,
+     "transcript": 724088
+    },
+    {
+     "t": 222,
+     "sent": 561,
+     "transcript": 727371
+    },
+    {
+     "t": 223,
+     "sent": 559,
+     "transcript": 730669
+    },
+    {
+     "t": 224,
+     "sent": 559,
+     "transcript": 733957
+    },
+    {
+     "t": 225,
+     "sent": 564,
+     "transcript": 737201
+    },
+    {
+     "t": 226,
+     "sent": 563,
+     "transcript": 740447
+    },
+    {
+     "t": 227,
+     "sent": 562,
+     "transcript": 743715
+    },
+    {
+     "t": 228,
+     "sent": 552,
+     "transcript": 746992
+    },
+    {
+     "t": 229,
+     "sent": 562,
+     "transcript": 750280
+    },
+    {
+     "t": 230,
+     "sent": 559,
+     "transcript": 753528
+    },
+    {
+     "t": 231,
+     "sent": 561,
+     "transcript": 756781
+    },
+    {
+     "t": 232,
+     "sent": 565,
+     "transcript": 760059
+    },
+    {
+     "t": 233,
+     "sent": 557,
+     "transcript": 763333
+    },
+    {
+     "t": 234,
+     "sent": 560,
+     "transcript": 766614
+    },
+    {
+     "t": 235,
+     "sent": 553,
+     "transcript": 769900
+    },
+    {
+     "t": 236,
+     "sent": 559,
+     "transcript": 773176
+    },
+    {
+     "t": 237,
+     "sent": 562,
+     "transcript": 776425
+    },
+    {
+     "t": 238,
+     "sent": 551,
+     "transcript": 779705
+    },
+    {
+     "t": 239,
+     "sent": 559,
+     "transcript": 782968
+    },
+    {
+     "t": 240,
+     "sent": 559,
+     "transcript": 786249
+    },
+    {
+     "t": 241,
+     "sent": 561,
+     "transcript": 789531
+    },
+    {
+     "t": 242,
+     "sent": 560,
+     "transcript": 792795
+    },
+    {
+     "t": 243,
+     "sent": 557,
+     "transcript": 796053
+    },
+    {
+     "t": 244,
+     "sent": 570,
+     "transcript": 799333
+    },
+    {
+     "t": 245,
+     "sent": 563,
+     "transcript": 802614
+    },
+    {
+     "t": 246,
+     "sent": 555,
+     "transcript": 805892
+    },
+    {
+     "t": 247,
+     "sent": 561,
+     "transcript": 809163
+    },
+    {
+     "t": 248,
+     "sent": 557,
+     "transcript": 812454
+    },
+    {
+     "t": 249,
+     "sent": 559,
+     "transcript": 815735
+    },
+    {
+     "t": 250,
+     "sent": 566,
+     "transcript": 819027
+    },
+    {
+     "t": 251,
+     "sent": 563,
+     "transcript": 822312
+    },
+    {
+     "t": 252,
+     "sent": 559,
+     "transcript": 825611
+    },
+    {
+     "t": 253,
+     "sent": 553,
+     "transcript": 828883
+    },
+    {
+     "t": 254,
+     "sent": 555,
+     "transcript": 832156
+    },
+    {
+     "t": 255,
+     "sent": 556,
+     "transcript": 835444
+    },
+    {
+     "t": 256,
+     "sent": 545,
+     "transcript": 838733
+    },
+    {
+     "t": 257,
+     "sent": 553,
+     "transcript": 842005
+    },
+    {
+     "t": 258,
+     "sent": 551,
+     "transcript": 845309
+    },
+    {
+     "t": 259,
+     "sent": 555,
+     "transcript": 848562
+    },
+    {
+     "t": 260,
+     "sent": 574,
+     "transcript": 851827
+    },
+    {
+     "t": 261,
+     "sent": 556,
+     "transcript": 855109
+    },
+    {
+     "t": 262,
+     "sent": 557,
+     "transcript": 858412
+    },
+    {
+     "t": 263,
+     "sent": 555,
+     "transcript": 861666
+    },
+    {
+     "t": 264,
+     "sent": 565,
+     "transcript": 864927
+    },
+    {
+     "t": 265,
+     "sent": 561,
+     "transcript": 868216
+    },
+    {
+     "t": 266,
+     "sent": 566,
+     "transcript": 871495
+    },
+    {
+     "t": 267,
+     "sent": 561,
+     "transcript": 874803
+    },
+    {
+     "t": 268,
+     "sent": 554,
+     "transcript": 878098
+    },
+    {
+     "t": 269,
+     "sent": 563,
+     "transcript": 881366
+    },
+    {
+     "t": 270,
+     "sent": 564,
+     "transcript": 884629
+    },
+    {
+     "t": 271,
+     "sent": 560,
+     "transcript": 887902
+    },
+    {
+     "t": 272,
+     "sent": 562,
+     "transcript": 891164
+    },
+    {
+     "t": 273,
+     "sent": 563,
+     "transcript": 894437
+    },
+    {
+     "t": 274,
+     "sent": 557,
+     "transcript": 897722
+    },
+    {
+     "t": 275,
+     "sent": 555,
+     "transcript": 900984
+    },
+    {
+     "t": 276,
+     "sent": 560,
+     "transcript": 904232
+    },
+    {
+     "t": 277,
+     "sent": 560,
+     "transcript": 907512
+    },
+    {
+     "t": 278,
+     "sent": 553,
+     "transcript": 910772
+    },
+    {
+     "t": 279,
+     "sent": 552,
+     "transcript": 914061
+    },
+    {
+     "t": 280,
+     "sent": 564,
+     "transcript": 917348
+    },
+    {
+     "t": 281,
+     "sent": 562,
+     "transcript": 920641
+    },
+    {
+     "t": 282,
+     "sent": 561,
+     "transcript": 923922
+    },
+    {
+     "t": 283,
+     "sent": 563,
+     "transcript": 927202
+    },
+    {
+     "t": 284,
+     "sent": 556,
+     "transcript": 930485
+    },
+    {
+     "t": 285,
+     "sent": 555,
+     "transcript": 933765
+    },
+    {
+     "t": 286,
+     "sent": 550,
+     "transcript": 937028
+    },
+    {
+     "t": 287,
+     "sent": 553,
+     "transcript": 940286
+    },
+    {
+     "t": 288,
+     "sent": 558,
+     "transcript": 943571
+    },
+    {
+     "t": 289,
+     "sent": 563,
+     "transcript": 946881
+    },
+    {
+     "t": 290,
+     "sent": 565,
+     "transcript": 950158
+    },
+    {
+     "t": 291,
+     "sent": 561,
+     "transcript": 953436
+    },
+    {
+     "t": 292,
+     "sent": 558,
+     "transcript": 956693
+    },
+    {
+     "t": 293,
+     "sent": 554,
+     "transcript": 959967
+    },
+    {
+     "t": 294,
+     "sent": 559,
+     "transcript": 963262
+    },
+    {
+     "t": 295,
+     "sent": 562,
+     "transcript": 966538
+    },
+    {
+     "t": 296,
+     "sent": 555,
+     "transcript": 969808
+    },
+    {
+     "t": 297,
+     "sent": 563,
+     "transcript": 973092
+    },
+    {
+     "t": 298,
+     "sent": 560,
+     "transcript": 976363
+    },
+    {
+     "t": 299,
+     "sent": 550,
+     "transcript": 979638
+    },
+    {
+     "t": 300,
+     "sent": 557,
+     "transcript": 982924
+    }
+   ],
+   "vs_flat": {
+    "n": 5,
+    "mean": 0.0874,
+    "sd": 0.0307,
+    "ci95": [
+     0.0493,
+     0.1255
+    ],
+    "min": 0.056,
+    "max": 0.137,
+    "wins": 5,
+    "of": 5
+   }
+  },
+  "recursive": {
+   "final_recall": {
+    "trained": 0.302,
+    "matching": 0.041,
+    "window": 0.0,
+    "probes": 50,
+    "facts": 1499,
+    "ceiling": 0.4
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.408,
+     "matching": 0.079,
+     "window": 0.0,
+     "probes": 2783,
+     "facts": 45471,
+     "ceiling": 0.625
+    },
+    "recent": {
+     "trained": 0.956,
+     "matching": 0.728,
+     "window": 0.0,
+     "probes": 150,
+     "facts": 272,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.412,
+    "matching": 0.083,
+    "window": 0.0,
+    "probes": 2933,
+    "facts": 45743,
+    "ceiling": 0.627
+   },
+   "final": {
+    "transcript_tokens": 983286.4,
+    "sent_tokens": 560.2,
+    "sent_max": 573.0,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 317.3,
+   "wall_s_per_session": 95.2,
+   "self_recall_last": 0.994,
+   "worst_final": 0.268,
+   "trained_beats_matching": 5,
+   "exact": {
+    "known": 12440,
+    "hit": 1.0,
+    "unknown": 900,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 10330,
+    "newest": 1.0
+   },
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 10.0,
+    "demoted": 6750,
+    "why": {
+     "forgetting": 0,
+     "cap": 6750
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 5,
+     "mean": 0.3014,
+     "sd": 0.0204,
+     "ci95": [
+      0.2761,
+      0.3267
+     ],
+     "min": 0.268,
+     "max": 0.323
+    },
+    "old": {
+     "n": 5,
+     "mean": 0.4082,
+     "sd": 0.0098,
+     "ci95": [
+      0.3961,
+      0.4203
+     ],
+     "min": 0.399,
+     "max": 0.423
+    },
+    "sent": {
+     "n": 5,
+     "mean": 560.2,
+     "sd": 1.9235,
+     "ci95": [
+      557.812,
+      562.588
+     ],
+     "min": 558,
+     "max": 563
+    }
+   },
+   "seed1_checkpoints": [
+    {
+     "turn": 50,
+     "recall": 0.76,
+     "ceiling": 1.0,
+     "share": 0.76
+    },
+    {
+     "turn": 100,
+     "recall": 0.54,
+     "ceiling": 0.94,
+     "share": 0.5745
+    },
+    {
+     "turn": 150,
+     "recall": 0.4667,
+     "ceiling": 0.7733,
+     "share": 0.6034
+    },
+    {
+     "turn": 200,
+     "recall": 0.43,
+     "ceiling": 0.6,
+     "share": 0.7167
+    },
+    {
+     "turn": 250,
+     "recall": 0.336,
+     "ceiling": 0.48,
+     "share": 0.7
+    },
+    {
+     "turn": 300,
+     "recall": 0.2676,
+     "ceiling": 0.4013,
+     "share": 0.6667
+    }
+   ],
+   "seed1_per_turn": [
+    {
+     "t": 1,
+     "sent": 378,
+     "transcript": 3457
+    },
+    {
+     "t": 2,
+     "sent": 383,
+     "transcript": 6724
+    },
+    {
+     "t": 3,
+     "sent": 398,
+     "transcript": 9990
+    },
+    {
+     "t": 4,
+     "sent": 409,
+     "transcript": 13275
+    },
+    {
+     "t": 5,
+     "sent": 430,
+     "transcript": 16541
+    },
+    {
+     "t": 6,
+     "sent": 446,
+     "transcript": 19833
+    },
+    {
+     "t": 7,
+     "sent": 465,
+     "transcript": 23102
+    },
+    {
+     "t": 8,
+     "sent": 484,
+     "transcript": 26360
+    },
+    {
+     "t": 9,
+     "sent": 493,
+     "transcript": 29627
+    },
+    {
+     "t": 10,
+     "sent": 509,
+     "transcript": 32891
+    },
+    {
+     "t": 11,
+     "sent": 526,
+     "transcript": 36167
+    },
+    {
+     "t": 12,
+     "sent": 540,
+     "transcript": 39460
+    },
+    {
+     "t": 13,
+     "sent": 564,
+     "transcript": 42743
+    },
+    {
+     "t": 14,
+     "sent": 564,
+     "transcript": 46026
+    },
+    {
+     "t": 15,
+     "sent": 555,
+     "transcript": 49293
+    },
+    {
+     "t": 16,
+     "sent": 561,
+     "transcript": 52571
+    },
+    {
+     "t": 17,
+     "sent": 555,
+     "transcript": 55848
+    },
+    {
+     "t": 18,
+     "sent": 553,
+     "transcript": 59095
+    },
+    {
+     "t": 19,
+     "sent": 559,
+     "transcript": 62369
+    },
+    {
+     "t": 20,
+     "sent": 561,
+     "transcript": 65646
+    },
+    {
+     "t": 21,
+     "sent": 563,
+     "transcript": 68928
+    },
+    {
+     "t": 22,
+     "sent": 557,
+     "transcript": 72189
+    },
+    {
+     "t": 23,
+     "sent": 562,
+     "transcript": 75453
+    },
+    {
+     "t": 24,
+     "sent": 552,
+     "transcript": 78715
+    },
+    {
+     "t": 25,
+     "sent": 562,
+     "transcript": 81979
+    },
+    {
+     "t": 26,
+     "sent": 554,
+     "transcript": 85266
+    },
+    {
+     "t": 27,
+     "sent": 560,
+     "transcript": 88516
+    },
+    {
+     "t": 28,
+     "sent": 557,
+     "transcript": 91782
+    },
+    {
+     "t": 29,
+     "sent": 554,
+     "transcript": 95054
+    },
+    {
+     "t": 30,
+     "sent": 558,
+     "transcript": 98323
+    },
+    {
+     "t": 31,
+     "sent": 558,
+     "transcript": 101601
+    },
+    {
+     "t": 32,
+     "sent": 554,
+     "transcript": 104860
+    },
+    {
+     "t": 33,
+     "sent": 555,
+     "transcript": 108149
+    },
+    {
+     "t": 34,
+     "sent": 556,
+     "transcript": 111430
+    },
+    {
+     "t": 35,
+     "sent": 558,
+     "transcript": 114711
+    },
+    {
+     "t": 36,
+     "sent": 559,
+     "transcript": 117993
+    },
+    {
+     "t": 37,
+     "sent": 562,
+     "transcript": 121269
+    },
+    {
+     "t": 38,
+     "sent": 566,
+     "transcript": 124543
+    },
+    {
+     "t": 39,
+     "sent": 558,
+     "transcript": 127822
+    },
+    {
+     "t": 40,
+     "sent": 559,
+     "transcript": 131098
+    },
+    {
+     "t": 41,
+     "sent": 559,
+     "transcript": 134353
+    },
+    {
+     "t": 42,
+     "sent": 556,
+     "transcript": 137633
+    },
+    {
+     "t": 43,
+     "sent": 567,
+     "transcript": 140940
+    },
+    {
+     "t": 44,
+     "sent": 561,
+     "transcript": 144230
+    },
+    {
+     "t": 45,
+     "sent": 559,
+     "transcript": 147531
+    },
+    {
+     "t": 46,
+     "sent": 553,
+     "transcript": 150811
+    },
+    {
+     "t": 47,
+     "sent": 555,
+     "transcript": 154088
+    },
+    {
+     "t": 48,
+     "sent": 562,
+     "transcript": 157357
+    },
+    {
+     "t": 49,
+     "sent": 554,
+     "transcript": 160645
+    },
+    {
+     "t": 50,
+     "sent": 553,
+     "transcript": 163931
+    },
+    {
+     "t": 51,
+     "sent": 554,
+     "transcript": 167211
+    },
+    {
+     "t": 52,
+     "sent": 552,
+     "transcript": 170493
+    },
+    {
+     "t": 53,
+     "sent": 560,
+     "transcript": 173749
+    },
+    {
+     "t": 54,
+     "sent": 568,
+     "transcript": 177037
+    },
+    {
+     "t": 55,
+     "sent": 545,
+     "transcript": 180331
+    },
+    {
+     "t": 56,
+     "sent": 552,
+     "transcript": 183581
+    },
+    {
+     "t": 57,
+     "sent": 556,
+     "transcript": 186857
+    },
+    {
+     "t": 58,
+     "sent": 554,
+     "transcript": 190126
+    },
+    {
+     "t": 59,
+     "sent": 554,
+     "transcript": 193381
+    },
+    {
+     "t": 60,
+     "sent": 555,
+     "transcript": 196658
+    },
+    {
+     "t": 61,
+     "sent": 554,
+     "transcript": 199931
+    },
+    {
+     "t": 62,
+     "sent": 559,
+     "transcript": 203200
+    },
+    {
+     "t": 63,
+     "sent": 561,
+     "transcript": 206447
+    },
+    {
+     "t": 64,
+     "sent": 554,
+     "transcript": 209719
+    },
+    {
+     "t": 65,
+     "sent": 546,
+     "transcript": 212980
+    },
+    {
+     "t": 66,
+     "sent": 562,
+     "transcript": 216285
+    },
+    {
+     "t": 67,
+     "sent": 555,
+     "transcript": 219573
+    },
+    {
+     "t": 68,
+     "sent": 552,
+     "transcript": 222852
+    },
+    {
+     "t": 69,
+     "sent": 551,
+     "transcript": 226087
+    },
+    {
+     "t": 70,
+     "sent": 562,
+     "transcript": 229360
+    },
+    {
+     "t": 71,
+     "sent": 554,
+     "transcript": 232623
+    },
+    {
+     "t": 72,
+     "sent": 555,
+     "transcript": 235896
+    },
+    {
+     "t": 73,
+     "sent": 555,
+     "transcript": 239179
+    },
+    {
+     "t": 74,
+     "sent": 557,
+     "transcript": 242476
+    },
+    {
+     "t": 75,
+     "sent": 556,
+     "transcript": 245735
+    },
+    {
+     "t": 76,
+     "sent": 562,
+     "transcript": 248998
+    },
+    {
+     "t": 77,
+     "sent": 554,
+     "transcript": 252277
+    },
+    {
+     "t": 78,
+     "sent": 564,
+     "transcript": 255555
+    },
+    {
+     "t": 79,
+     "sent": 560,
+     "transcript": 258848
+    },
+    {
+     "t": 80,
+     "sent": 569,
+     "transcript": 262102
+    },
+    {
+     "t": 81,
+     "sent": 549,
+     "transcript": 265342
+    },
+    {
+     "t": 82,
+     "sent": 560,
+     "transcript": 268633
+    },
+    {
+     "t": 83,
+     "sent": 557,
+     "transcript": 271910
+    },
+    {
+     "t": 84,
+     "sent": 547,
+     "transcript": 275183
+    },
+    {
+     "t": 85,
+     "sent": 554,
+     "transcript": 278472
+    },
+    {
+     "t": 86,
+     "sent": 556,
+     "transcript": 281758
+    },
+    {
+     "t": 87,
+     "sent": 559,
+     "transcript": 285047
+    },
+    {
+     "t": 88,
+     "sent": 556,
+     "transcript": 288315
+    },
+    {
+     "t": 89,
+     "sent": 561,
+     "transcript": 291593
+    },
+    {
+     "t": 90,
+     "sent": 563,
+     "transcript": 294862
+    },
+    {
+     "t": 91,
+     "sent": 557,
+     "transcript": 298096
+    },
+    {
+     "t": 92,
+     "sent": 564,
+     "transcript": 301368
+    },
+    {
+     "t": 93,
+     "sent": 557,
+     "transcript": 304697
+    },
+    {
+     "t": 94,
+     "sent": 556,
+     "transcript": 307977
+    },
+    {
+     "t": 95,
+     "sent": 556,
+     "transcript": 311235
+    },
+    {
+     "t": 96,
+     "sent": 553,
+     "transcript": 314513
+    },
+    {
+     "t": 97,
+     "sent": 561,
+     "transcript": 317762
+    },
+    {
+     "t": 98,
+     "sent": 560,
+     "transcript": 321026
+    },
+    {
+     "t": 99,
+     "sent": 557,
+     "transcript": 324272
+    },
+    {
+     "t": 100,
+     "sent": 565,
+     "transcript": 327530
+    },
+    {
+     "t": 101,
+     "sent": 555,
+     "transcript": 330793
+    },
+    {
+     "t": 102,
+     "sent": 559,
+     "transcript": 334061
+    },
+    {
+     "t": 103,
+     "sent": 562,
+     "transcript": 337332
+    },
+    {
+     "t": 104,
+     "sent": 553,
+     "transcript": 340630
+    },
+    {
+     "t": 105,
+     "sent": 557,
+     "transcript": 343897
+    },
+    {
+     "t": 106,
+     "sent": 563,
+     "transcript": 347178
+    },
+    {
+     "t": 107,
+     "sent": 550,
+     "transcript": 350460
+    },
+    {
+     "t": 108,
+     "sent": 554,
+     "transcript": 353754
+    },
+    {
+     "t": 109,
+     "sent": 553,
+     "transcript": 357033
+    },
+    {
+     "t": 110,
+     "sent": 550,
+     "transcript": 360303
+    },
+    {
+     "t": 111,
+     "sent": 568,
+     "transcript": 363578
+    },
+    {
+     "t": 112,
+     "sent": 550,
+     "transcript": 366874
+    },
+    {
+     "t": 113,
+     "sent": 551,
+     "transcript": 370182
+    },
+    {
+     "t": 114,
+     "sent": 551,
+     "transcript": 373464
+    },
+    {
+     "t": 115,
+     "sent": 557,
+     "transcript": 376751
+    },
+    {
+     "t": 116,
+     "sent": 561,
+     "transcript": 380020
+    },
+    {
+     "t": 117,
+     "sent": 552,
+     "transcript": 383297
+    },
+    {
+     "t": 118,
+     "sent": 559,
+     "transcript": 386596
+    },
+    {
+     "t": 119,
+     "sent": 566,
+     "transcript": 389890
+    },
+    {
+     "t": 120,
+     "sent": 555,
+     "transcript": 393172
+    },
+    {
+     "t": 121,
+     "sent": 564,
+     "transcript": 396457
+    },
+    {
+     "t": 122,
+     "sent": 557,
+     "transcript": 399731
+    },
+    {
+     "t": 123,
+     "sent": 558,
+     "transcript": 403011
+    },
+    {
+     "t": 124,
+     "sent": 557,
+     "transcript": 406266
+    },
+    {
+     "t": 125,
+     "sent": 562,
+     "transcript": 409547
+    },
+    {
+     "t": 126,
+     "sent": 562,
+     "transcript": 412823
+    },
+    {
+     "t": 127,
+     "sent": 567,
+     "transcript": 416105
+    },
+    {
+     "t": 128,
+     "sent": 560,
+     "transcript": 419402
+    },
+    {
+     "t": 129,
+     "sent": 556,
+     "transcript": 422665
+    },
+    {
+     "t": 130,
+     "sent": 566,
+     "transcript": 425938
+    },
+    {
+     "t": 131,
+     "sent": 560,
+     "transcript": 429217
+    },
+    {
+     "t": 132,
+     "sent": 557,
+     "transcript": 432511
+    },
+    {
+     "t": 133,
+     "sent": 555,
+     "transcript": 435790
+    },
+    {
+     "t": 134,
+     "sent": 563,
+     "transcript": 439078
+    },
+    {
+     "t": 135,
+     "sent": 560,
+     "transcript": 442347
+    },
+    {
+     "t": 136,
+     "sent": 557,
+     "transcript": 445642
+    },
+    {
+     "t": 137,
+     "sent": 552,
+     "transcript": 448924
+    },
+    {
+     "t": 138,
+     "sent": 553,
+     "transcript": 452202
+    },
+    {
+     "t": 139,
+     "sent": 556,
+     "transcript": 455470
+    },
+    {
+     "t": 140,
+     "sent": 558,
+     "transcript": 458764
+    },
+    {
+     "t": 141,
+     "sent": 563,
+     "transcript": 462052
+    },
+    {
+     "t": 142,
+     "sent": 559,
+     "transcript": 465327
+    },
+    {
+     "t": 143,
+     "sent": 557,
+     "transcript": 468606
+    },
+    {
+     "t": 144,
+     "sent": 560,
+     "transcript": 471866
+    },
+    {
+     "t": 145,
+     "sent": 563,
+     "transcript": 475132
+    },
+    {
+     "t": 146,
+     "sent": 558,
+     "transcript": 478387
+    },
+    {
+     "t": 147,
+     "sent": 563,
+     "transcript": 481672
+    },
+    {
+     "t": 148,
+     "sent": 560,
+     "transcript": 484926
+    },
+    {
+     "t": 149,
+     "sent": 563,
+     "transcript": 488186
+    },
+    {
+     "t": 150,
+     "sent": 552,
+     "transcript": 491480
+    },
+    {
+     "t": 151,
+     "sent": 562,
+     "transcript": 494762
+    },
+    {
+     "t": 152,
+     "sent": 557,
+     "transcript": 498042
+    },
+    {
+     "t": 153,
+     "sent": 566,
+     "transcript": 501338
+    },
+    {
+     "t": 154,
+     "sent": 556,
+     "transcript": 504604
+    },
+    {
+     "t": 155,
+     "sent": 555,
+     "transcript": 507860
+    },
+    {
+     "t": 156,
+     "sent": 564,
+     "transcript": 511140
+    },
+    {
+     "t": 157,
+     "sent": 558,
+     "transcript": 514419
+    },
+    {
+     "t": 158,
+     "sent": 559,
+     "transcript": 517671
+    },
+    {
+     "t": 159,
+     "sent": 560,
+     "transcript": 520950
+    },
+    {
+     "t": 160,
+     "sent": 561,
+     "transcript": 524226
+    },
+    {
+     "t": 161,
+     "sent": 571,
+     "transcript": 527499
+    },
+    {
+     "t": 162,
+     "sent": 558,
+     "transcript": 530753
+    },
+    {
+     "t": 163,
+     "sent": 561,
+     "transcript": 534034
+    },
+    {
+     "t": 164,
+     "sent": 558,
+     "transcript": 537312
+    },
+    {
+     "t": 165,
+     "sent": 566,
+     "transcript": 540608
+    },
+    {
+     "t": 166,
+     "sent": 551,
+     "transcript": 543889
+    },
+    {
+     "t": 167,
+     "sent": 561,
+     "transcript": 547157
+    },
+    {
+     "t": 168,
+     "sent": 556,
+     "transcript": 550433
+    },
+    {
+     "t": 169,
+     "sent": 570,
+     "transcript": 553708
+    },
+    {
+     "t": 170,
+     "sent": 572,
+     "transcript": 557000
+    },
+    {
+     "t": 171,
+     "sent": 560,
+     "transcript": 560267
+    },
+    {
+     "t": 172,
+     "sent": 561,
+     "transcript": 563536
+    },
+    {
+     "t": 173,
+     "sent": 557,
+     "transcript": 566821
+    },
+    {
+     "t": 174,
+     "sent": 561,
+     "transcript": 570106
+    },
+    {
+     "t": 175,
+     "sent": 554,
+     "transcript": 573388
+    },
+    {
+     "t": 176,
+     "sent": 548,
+     "transcript": 576656
+    },
+    {
+     "t": 177,
+     "sent": 560,
+     "transcript": 579933
+    },
+    {
+     "t": 178,
+     "sent": 554,
+     "transcript": 583201
+    },
+    {
+     "t": 179,
+     "sent": 546,
+     "transcript": 586474
+    },
+    {
+     "t": 180,
+     "sent": 555,
+     "transcript": 589766
+    },
+    {
+     "t": 181,
+     "sent": 570,
+     "transcript": 593052
+    },
+    {
+     "t": 182,
+     "sent": 562,
+     "transcript": 596320
+    },
+    {
+     "t": 183,
+     "sent": 553,
+     "transcript": 599578
+    },
+    {
+     "t": 184,
+     "sent": 562,
+     "transcript": 602852
+    },
+    {
+     "t": 185,
+     "sent": 556,
+     "transcript": 606134
+    },
+    {
+     "t": 186,
+     "sent": 554,
+     "transcript": 609408
+    },
+    {
+     "t": 187,
+     "sent": 563,
+     "transcript": 612702
+    },
+    {
+     "t": 188,
+     "sent": 563,
+     "transcript": 615975
+    },
+    {
+     "t": 189,
+     "sent": 566,
+     "transcript": 619231
+    },
+    {
+     "t": 190,
+     "sent": 561,
+     "transcript": 622516
+    },
+    {
+     "t": 191,
+     "sent": 565,
+     "transcript": 625780
+    },
+    {
+     "t": 192,
+     "sent": 565,
+     "transcript": 629056
+    },
+    {
+     "t": 193,
+     "sent": 559,
+     "transcript": 632319
+    },
+    {
+     "t": 194,
+     "sent": 550,
+     "transcript": 635562
+    },
+    {
+     "t": 195,
+     "sent": 564,
+     "transcript": 638834
+    },
+    {
+     "t": 196,
+     "sent": 552,
+     "transcript": 642104
+    },
+    {
+     "t": 197,
+     "sent": 570,
+     "transcript": 645385
+    },
+    {
+     "t": 198,
+     "sent": 562,
+     "transcript": 648692
+    },
+    {
+     "t": 199,
+     "sent": 558,
+     "transcript": 651953
+    },
+    {
+     "t": 200,
+     "sent": 560,
+     "transcript": 655230
+    },
+    {
+     "t": 201,
+     "sent": 557,
+     "transcript": 658512
+    },
+    {
+     "t": 202,
+     "sent": 557,
+     "transcript": 661757
+    },
+    {
+     "t": 203,
+     "sent": 556,
+     "transcript": 665056
+    },
+    {
+     "t": 204,
+     "sent": 556,
+     "transcript": 668363
+    },
+    {
+     "t": 205,
+     "sent": 548,
+     "transcript": 671655
+    },
+    {
+     "t": 206,
+     "sent": 557,
+     "transcript": 674920
+    },
+    {
+     "t": 207,
+     "sent": 567,
+     "transcript": 678190
+    },
+    {
+     "t": 208,
+     "sent": 562,
+     "transcript": 681483
+    },
+    {
+     "t": 209,
+     "sent": 555,
+     "transcript": 684780
+    },
+    {
+     "t": 210,
+     "sent": 561,
+     "transcript": 688069
+    },
+    {
+     "t": 211,
+     "sent": 557,
+     "transcript": 691357
+    },
+    {
+     "t": 212,
+     "sent": 567,
+     "transcript": 694661
+    },
+    {
+     "t": 213,
+     "sent": 567,
+     "transcript": 697937
+    },
+    {
+     "t": 214,
+     "sent": 565,
+     "transcript": 701206
+    },
+    {
+     "t": 215,
+     "sent": 565,
+     "transcript": 704490
+    },
+    {
+     "t": 216,
+     "sent": 560,
+     "transcript": 707765
+    },
+    {
+     "t": 217,
+     "sent": 562,
+     "transcript": 711024
+    },
+    {
+     "t": 218,
+     "sent": 564,
+     "transcript": 714300
+    },
+    {
+     "t": 219,
+     "sent": 559,
+     "transcript": 717551
+    },
+    {
+     "t": 220,
+     "sent": 564,
+     "transcript": 720823
+    },
+    {
+     "t": 221,
+     "sent": 558,
+     "transcript": 724088
+    },
+    {
+     "t": 222,
+     "sent": 562,
+     "transcript": 727371
+    },
+    {
+     "t": 223,
+     "sent": 558,
+     "transcript": 730669
+    },
+    {
+     "t": 224,
+     "sent": 560,
+     "transcript": 733957
+    },
+    {
+     "t": 225,
+     "sent": 567,
+     "transcript": 737201
+    },
+    {
+     "t": 226,
+     "sent": 564,
+     "transcript": 740447
+    },
+    {
+     "t": 227,
+     "sent": 566,
+     "transcript": 743715
+    },
+    {
+     "t": 228,
+     "sent": 554,
+     "transcript": 746992
+    },
+    {
+     "t": 229,
+     "sent": 565,
+     "transcript": 750280
+    },
+    {
+     "t": 230,
+     "sent": 563,
+     "transcript": 753528
+    },
+    {
+     "t": 231,
+     "sent": 562,
+     "transcript": 756781
+    },
+    {
+     "t": 232,
+     "sent": 564,
+     "transcript": 760059
+    },
+    {
+     "t": 233,
+     "sent": 562,
+     "transcript": 763333
+    },
+    {
+     "t": 234,
+     "sent": 564,
+     "transcript": 766614
+    },
+    {
+     "t": 235,
+     "sent": 559,
+     "transcript": 769900
+    },
+    {
+     "t": 236,
+     "sent": 562,
+     "transcript": 773176
+    },
+    {
+     "t": 237,
+     "sent": 560,
+     "transcript": 776425
+    },
+    {
+     "t": 238,
+     "sent": 550,
+     "transcript": 779705
+    },
+    {
+     "t": 239,
+     "sent": 562,
+     "transcript": 782968
+    },
+    {
+     "t": 240,
+     "sent": 557,
+     "transcript": 786249
+    },
+    {
+     "t": 241,
+     "sent": 563,
+     "transcript": 789531
+    },
+    {
+     "t": 242,
+     "sent": 562,
+     "transcript": 792795
+    },
+    {
+     "t": 243,
+     "sent": 562,
+     "transcript": 796053
+    },
+    {
+     "t": 244,
+     "sent": 564,
+     "transcript": 799333
+    },
+    {
+     "t": 245,
+     "sent": 566,
+     "transcript": 802614
+    },
+    {
+     "t": 246,
+     "sent": 558,
+     "transcript": 805892
+    },
+    {
+     "t": 247,
+     "sent": 566,
+     "transcript": 809163
+    },
+    {
+     "t": 248,
+     "sent": 551,
+     "transcript": 812454
+    },
+    {
+     "t": 249,
+     "sent": 558,
+     "transcript": 815735
+    },
+    {
+     "t": 250,
+     "sent": 570,
+     "transcript": 819027
+    },
+    {
+     "t": 251,
+     "sent": 567,
+     "transcript": 822312
+    },
+    {
+     "t": 252,
+     "sent": 555,
+     "transcript": 825611
+    },
+    {
+     "t": 253,
+     "sent": 559,
+     "transcript": 828883
+    },
+    {
+     "t": 254,
+     "sent": 554,
+     "transcript": 832156
+    },
+    {
+     "t": 255,
+     "sent": 557,
+     "transcript": 835444
+    },
+    {
+     "t": 256,
+     "sent": 547,
+     "transcript": 838733
+    },
+    {
+     "t": 257,
+     "sent": 549,
+     "transcript": 842005
+    },
+    {
+     "t": 258,
+     "sent": 553,
+     "transcript": 845309
+    },
+    {
+     "t": 259,
+     "sent": 558,
+     "transcript": 848562
+    },
+    {
+     "t": 260,
+     "sent": 571,
+     "transcript": 851827
+    },
+    {
+     "t": 261,
+     "sent": 554,
+     "transcript": 855109
+    },
+    {
+     "t": 262,
+     "sent": 560,
+     "transcript": 858412
+    },
+    {
+     "t": 263,
+     "sent": 559,
+     "transcript": 861666
+    },
+    {
+     "t": 264,
+     "sent": 563,
+     "transcript": 864927
+    },
+    {
+     "t": 265,
+     "sent": 563,
+     "transcript": 868216
+    },
+    {
+     "t": 266,
+     "sent": 572,
+     "transcript": 871495
+    },
+    {
+     "t": 267,
+     "sent": 557,
+     "transcript": 874803
+    },
+    {
+     "t": 268,
+     "sent": 560,
+     "transcript": 878098
+    },
+    {
+     "t": 269,
+     "sent": 557,
+     "transcript": 881366
+    },
+    {
+     "t": 270,
+     "sent": 564,
+     "transcript": 884629
+    },
+    {
+     "t": 271,
+     "sent": 557,
+     "transcript": 887902
+    },
+    {
+     "t": 272,
+     "sent": 560,
+     "transcript": 891164
+    },
+    {
+     "t": 273,
+     "sent": 560,
+     "transcript": 894437
+    },
+    {
+     "t": 274,
+     "sent": 561,
+     "transcript": 897722
+    },
+    {
+     "t": 275,
+     "sent": 553,
+     "transcript": 900984
+    },
+    {
+     "t": 276,
+     "sent": 559,
+     "transcript": 904232
+    },
+    {
+     "t": 277,
+     "sent": 570,
+     "transcript": 907512
+    },
+    {
+     "t": 278,
+     "sent": 553,
+     "transcript": 910772
+    },
+    {
+     "t": 279,
+     "sent": 551,
+     "transcript": 914061
+    },
+    {
+     "t": 280,
+     "sent": 566,
+     "transcript": 917348
+    },
+    {
+     "t": 281,
+     "sent": 564,
+     "transcript": 920641
+    },
+    {
+     "t": 282,
+     "sent": 563,
+     "transcript": 923922
+    },
+    {
+     "t": 283,
+     "sent": 565,
+     "transcript": 927202
+    },
+    {
+     "t": 284,
+     "sent": 559,
+     "transcript": 930485
+    },
+    {
+     "t": 285,
+     "sent": 551,
+     "transcript": 933765
+    },
+    {
+     "t": 286,
+     "sent": 553,
+     "transcript": 937028
+    },
+    {
+     "t": 287,
+     "sent": 557,
+     "transcript": 940286
+    },
+    {
+     "t": 288,
+     "sent": 555,
+     "transcript": 943571
+    },
+    {
+     "t": 289,
+     "sent": 565,
+     "transcript": 946881
+    },
+    {
+     "t": 290,
+     "sent": 561,
+     "transcript": 950158
+    },
+    {
+     "t": 291,
+     "sent": 558,
+     "transcript": 953436
+    },
+    {
+     "t": 292,
+     "sent": 562,
+     "transcript": 956693
+    },
+    {
+     "t": 293,
+     "sent": 553,
+     "transcript": 959967
+    },
+    {
+     "t": 294,
+     "sent": 562,
+     "transcript": 963262
+    },
+    {
+     "t": 295,
+     "sent": 555,
+     "transcript": 966538
+    },
+    {
+     "t": 296,
+     "sent": 559,
+     "transcript": 969808
+    },
+    {
+     "t": 297,
+     "sent": 563,
+     "transcript": 973092
+    },
+    {
+     "t": 298,
+     "sent": 569,
+     "transcript": 976363
+    },
+    {
+     "t": 299,
+     "sent": 552,
+     "transcript": 979638
+    },
+    {
+     "t": 300,
+     "sent": 561,
+     "transcript": 982924
+    }
+   ],
+   "vs_flat": {
+    "n": 5,
+    "mean": 0.0646,
+    "sd": 0.0326,
+    "ci95": [
+     0.0241,
+     0.1051
+    ],
+    "min": 0.016,
+    "max": 0.106,
+    "wins": 5,
+    "of": 5
+   }
+  }
+ },
+ "t10_seconds": 1204.5,
+ "t6": {
+  "60 turns, k=6, flat + Life": {
+   "final_recall": {
+    "trained": 0.479,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.606,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.872,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.641,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 461.4,
+    "sent_max": 470.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 42.5,
+   "wall_s_per_session": 2.5,
+   "self_recall_last": 0.969,
+   "worst_final": 0.417,
+   "trained_beats_matching": 20,
+   "exact": {
+    "known": 5665,
+    "hit": 1.0,
+    "unknown": 720,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 1711,
+    "newest": 1.0
+   },
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.4792,
+     "sd": 0.0512,
+     "ci95": [
+      0.4552,
+      0.5032
+     ],
+     "min": 0.417,
+     "max": 0.567
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6057,
+     "sd": 0.0422,
+     "ci95": [
+      0.5859,
+      0.6254
+     ],
+     "min": 0.545,
+     "max": 0.702
+    },
+    "sent": {
+     "n": 20,
+     "mean": 461.35,
+     "sd": 4.1074,
+     "ci95": [
+      459.4277,
+      463.2723
+     ],
+     "min": 455,
+     "max": 470
+    }
+   }
+  },
+  "60 turns, k=6, tree + Life": {
+   "final_recall": {
+    "trained": 0.578,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.638,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.865,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.668,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.7,
+    "sent_max": 470.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 68.1,
+   "wall_s_per_session": 4.1,
+   "self_recall_last": 0.992,
+   "worst_final": 0.45,
+   "trained_beats_matching": 20,
+   "exact": {
+    "known": 5665,
+    "hit": 1.0,
+    "unknown": 720,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 1711,
+    "newest": 1.0
+   },
+   "tree": {
+    "children_mean": 3.0,
+    "closed": 40,
+    "why": {
+     "forgetting": 0,
+     "cap": 40
+    },
+    "self_recall_at_close": 0.991
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5782,
+     "sd": 0.0546,
+     "ci95": [
+      0.5527,
+      0.6038
+     ],
+     "min": 0.45,
+     "max": 0.683
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6383,
+     "sd": 0.0307,
+     "ci95": [
+      0.6239,
+      0.6527
+     ],
+     "min": 0.566,
+     "max": 0.691
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.7,
+     "sd": 4.6915,
+     "ci95": [
+      458.5043,
+      462.8957
+     ],
+     "min": 453,
+     "max": 472
+    }
+   }
+  },
+  "60 turns, k=6, recursive + Life": {
+   "final_recall": {
+    "trained": 0.55,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.62,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.862,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.652,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 461.2,
+    "sent_max": 470.6,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 45.1,
+   "wall_s_per_session": 2.7,
+   "self_recall_last": 0.989,
+   "worst_final": 0.4,
+   "trained_beats_matching": 20,
+   "exact": {
+    "known": 5665,
+    "hit": 1.0,
+    "unknown": 720,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 1711,
+    "newest": 1.0
+   },
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 2.0,
+    "demoted": 600,
+    "why": {
+     "forgetting": 0,
+     "cap": 600
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.55,
+     "sd": 0.0605,
+     "ci95": [
+      0.5217,
+      0.5782
+     ],
+     "min": 0.4,
+     "max": 0.633
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6195,
+     "sd": 0.0339,
+     "ci95": [
+      0.6036,
+      0.6354
+     ],
+     "min": 0.57,
+     "max": 0.69
+    },
+    "sent": {
+     "n": 20,
+     "mean": 461.25,
+     "sd": 4.7669,
+     "ci95": [
+      459.019,
+      463.481
+     ],
+     "min": 454,
+     "max": 473
+    }
+   }
+  }
+ },
+ "t6_seconds": 232.3,
+ "t7": {
+  "tools every turn": {
+   "final_recall": {
+    "trained": 0.479,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.606,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.872,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.641,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 461.4,
+    "sent_max": 470.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 32.9,
+   "wall_s_per_session": 2.0,
+   "self_recall_last": 0.969,
+   "worst_final": 0.417,
+   "trained_beats_matching": 20,
+   "exact": {
+    "known": 5665,
+    "hit": 1.0,
+    "unknown": 720,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 1711,
+    "newest": 1.0
+   },
+   "tree": null,
+   "toolmodel": {
+    "switched_at": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "state_prequential": 0.475,
+    "ask_prequential": 0.888,
+    "turns_tools": 1200,
+    "turns_recovered": 0,
+    "sent_tools": 455.311,
+    "sent_recovered": null,
+    "trips_tools": 2.0,
+    "trips_recovered": null,
+    "key_ok_recovered": null,
+    "keyed_recovered": null,
+    "recall_keyed": null
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.4792,
+     "sd": 0.0512,
+     "ci95": [
+      0.4552,
+      0.5032
+     ],
+     "min": 0.417,
+     "max": 0.567
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6057,
+     "sd": 0.0422,
+     "ci95": [
+      0.5859,
+      0.6254
+     ],
+     "min": 0.545,
+     "max": 0.702
+    },
+    "sent": {
+     "n": 20,
+     "mean": 461.35,
+     "sd": 4.1074,
+     "ci95": [
+      459.4277,
+      463.2723
+     ],
+     "min": 455,
+     "max": 470
+    }
+   }
+  },
+  "permissive gate": {
+   "final_recall": {
+    "trained": 0.478,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.604,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.872,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.64,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 175.3,
+    "sent_max": 467.5,
+    "round_trips": 1.5
+   },
+   "wall_ms_per_turn": 46.1,
+   "wall_s_per_session": 2.8,
+   "self_recall_last": 0.969,
+   "worst_final": 0.417,
+   "trained_beats_matching": 20,
+   "exact": {
+    "known": 5665,
+    "hit": 0.734,
+    "unknown": 720,
+    "abstain": 1.0,
+    "false_abstain": 0.111,
+    "revised": 1711,
+    "newest": 0.638
+   },
+   "tree": null,
+   "toolmodel": {
+    "switched_at": [
+     142,
+     146,
+     155,
+     152,
+     152,
+     150,
+     151,
+     144,
+     151,
+     151,
+     142,
+     148,
+     151,
+     154,
+     149,
+     146,
+     149,
+     146,
+     145,
+     146
+    ],
+    "state_prequential": 0.298,
+    "ask_prequential": 0.759,
+    "turns_tools": 600,
+    "turns_recovered": 600,
+    "sent_tools": 449.308,
+    "sent_recovered": 175.018,
+    "trips_tools": 2.0,
+    "trips_recovered": 1.0,
+    "key_ok_recovered": 0.46,
+    "keyed_recovered": 0.935,
+    "recall_keyed": 0.782
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.4784,
+     "sd": 0.0513,
+     "ci95": [
+      0.4544,
+      0.5024
+     ],
+     "min": 0.417,
+     "max": 0.567
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6043,
+     "sd": 0.0421,
+     "ci95": [
+      0.5845,
+      0.624
+     ],
+     "min": 0.54,
+     "max": 0.702
+    },
+    "sent": {
+     "n": 20,
+     "mean": 175.35,
+     "sd": 3.5876,
+     "ci95": [
+      173.671,
+      177.029
+     ],
+     "min": 169,
+     "max": 183
+    }
+   }
+  },
+  "prequential gate 0.85, 120 turns": {
+   "final_recall": {
+    "trained": 0.384,
+    "matching": 0.097,
+    "window": 0.057,
+    "probes": 200,
+    "facts": 2400,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.514,
+     "matching": 0.17,
+     "window": 0.093,
+     "probes": 3958,
+     "facts": 28980,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.95,
+     "matching": 0.743,
+     "window": 0.552,
+     "probes": 600,
+     "facts": 1020,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.529,
+    "matching": 0.189,
+    "window": 0.108,
+    "probes": 4558,
+    "facts": 30000,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 5833.6,
+    "sent_tokens": 557.4,
+    "sent_max": 568.7,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 40.0,
+   "wall_s_per_session": 4.8,
+   "self_recall_last": 0.912,
+   "worst_final": 0.317,
+   "trained_beats_matching": 20,
+   "exact": {
+    "known": 15863,
+    "hit": 1.0,
+    "unknown": 1440,
+    "abstain": 1.0,
+    "false_abstain": 0.0,
+    "revised": 8497,
+    "newest": 1.0
+   },
+   "tree": null,
+   "toolmodel": {
+    "switched_at": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "state_prequential": 0.663,
+    "ask_prequential": 0.948,
+    "turns_tools": 2400,
+    "turns_recovered": 0,
+    "sent_tools": 545.736,
+    "sent_recovered": null,
+    "trips_tools": 2.0,
+    "trips_recovered": null,
+    "key_ok_recovered": null,
+    "keyed_recovered": null,
+    "recall_keyed": null
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.3837,
+     "sd": 0.036,
+     "ci95": [
+      0.3669,
+      0.4006
+     ],
+     "min": 0.317,
+     "max": 0.458
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.5139,
+     "sd": 0.0163,
+     "ci95": [
+      0.5062,
+      0.5215
+     ],
+     "min": 0.479,
+     "max": 0.539
+    },
+    "sent": {
+     "n": 20,
+     "mean": 557.35,
+     "sd": 5.6127,
+     "ci95": [
+      554.7232,
+      559.9768
+     ],
+     "min": 544,
+     "max": 567
+    }
+   },
+   "switched": 0
+  },
+  "key head alone": {
+   "rows": [
+    {
+     "seed": 1,
+     "examples": 30,
+     "correct": 11,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 1,
+     "examples": 60,
+     "correct": 21,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 1,
+     "examples": 90,
+     "correct": 25,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 1,
+     "examples": 120,
+     "correct": 28,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 2,
+     "examples": 30,
+     "correct": 14,
+     "committed": 29,
+     "of": 30
+    },
+    {
+     "seed": 2,
+     "examples": 60,
+     "correct": 26,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 2,
+     "examples": 90,
+     "correct": 25,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 2,
+     "examples": 120,
+     "correct": 27,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 3,
+     "examples": 30,
+     "correct": 13,
+     "committed": 28,
+     "of": 30
+    },
+    {
+     "seed": 3,
+     "examples": 60,
+     "correct": 23,
+     "committed": 29,
+     "of": 30
+    },
+    {
+     "seed": 3,
+     "examples": 90,
+     "correct": 26,
+     "committed": 30,
+     "of": 30
+    },
+    {
+     "seed": 3,
+     "examples": 120,
+     "correct": 26,
+     "committed": 30,
+     "of": 30
+    }
+   ],
+   "mean_accuracy": {
+    "30": 0.422,
+    "60": 0.778,
+    "90": 0.844,
+    "120": 0.9
+   }
+  }
+ },
+ "t7_seconds": 2916.9,
+ "ablations": {
+  "tree, cap only": {
+   "final_recall": {
+    "trained": 0.578,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0,
+    "route2": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.638,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0,
+     "route2": 1.0
+    },
+    "recent": {
+     "trained": 0.865,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0,
+     "route2": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.668,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0,
+    "route2": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.3,
+    "sent_max": 469.5,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 115.2,
+   "wall_s_per_session": 6.9,
+   "self_recall_last": 0.992,
+   "worst_final": 0.45,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": {
+    "children_mean": 3.0,
+    "closed": 40,
+    "why": {
+     "forgetting": 0,
+     "cap": 40
+    },
+    "self_recall_at_close": 0.991
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5782,
+     "sd": 0.0546,
+     "ci95": [
+      0.5527,
+      0.6038
+     ],
+     "min": 0.45,
+     "max": 0.683
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6383,
+     "sd": 0.0307,
+     "ci95": [
+      0.6239,
+      0.6527
+     ],
+     "min": 0.566,
+     "max": 0.691
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.3,
+     "sd": 4.4733,
+     "ci95": [
+      458.2064,
+      462.3936
+     ],
+     "min": 453,
+     "max": 472
+    }
+   }
+  },
+  "tree, self-recall trigger 0.9": {
+   "final_recall": {
+    "trained": 0.558,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0,
+    "route2": 0.872
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.615,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0,
+     "route2": 0.89
+    },
+    "recent": {
+     "trained": 0.853,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0,
+     "route2": 0.986
+    }
+   },
+   "recall": {
+    "trained": 0.647,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0,
+    "route2": 0.903
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 459.8,
+    "sent_max": 469.6,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 100.7,
+   "wall_s_per_session": 6.0,
+   "self_recall_last": 0.998,
+   "worst_final": 0.483,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": {
+    "children_mean": 3.35,
+    "closed": 47,
+    "why": {
+     "forgetting": 19,
+     "cap": 28
+    },
+    "self_recall_at_close": 0.923
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5584,
+     "sd": 0.0421,
+     "ci95": [
+      0.5387,
+      0.578
+     ],
+     "min": 0.483,
+     "max": 0.633
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6152,
+     "sd": 0.0364,
+     "ci95": [
+      0.5982,
+      0.6323
+     ],
+     "min": 0.542,
+     "max": 0.691
+    },
+    "sent": {
+     "n": 20,
+     "mean": 459.75,
+     "sd": 4.0636,
+     "ci95": [
+      457.8482,
+      461.6518
+     ],
+     "min": 453,
+     "max": 469
+    }
+   },
+   "vs_paper_setting": {
+    "n": 20,
+    "mean": -0.0199,
+    "sd": 0.0434,
+    "ci95": [
+     -0.0402,
+     0.0004
+    ],
+    "min": -0.117,
+    "max": 0.067,
+    "wins": 2,
+    "of": 20
+   }
+  },
+  "cascade, rank interleave": {
+   "final_recall": {
+    "trained": 0.55,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.62,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.862,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.652,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.6,
+    "sent_max": 470.0,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 78.0,
+   "wall_s_per_session": 4.7,
+   "self_recall_last": 0.989,
+   "worst_final": 0.4,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 2.0,
+    "demoted": 600,
+    "why": {
+     "forgetting": 0,
+     "cap": 600
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.55,
+     "sd": 0.0605,
+     "ci95": [
+      0.5217,
+      0.5782
+     ],
+     "min": 0.4,
+     "max": 0.633
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6195,
+     "sd": 0.0339,
+     "ci95": [
+      0.6036,
+      0.6354
+     ],
+     "min": 0.57,
+     "max": 0.69
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.55,
+     "sd": 5.0417,
+     "ci95": [
+      458.1905,
+      462.9095
+     ],
+     "min": 453,
+     "max": 473
+    }
+   }
+  },
+  "cascade, normalised merge": {
+   "final_recall": {
+    "trained": 0.493,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.593,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.866,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.629,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.6,
+    "sent_max": 470.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 65.7,
+   "wall_s_per_session": 3.9,
+   "self_recall_last": 0.989,
+   "worst_final": 0.4,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 2.0,
+    "demoted": 600,
+    "why": {
+     "forgetting": 0,
+     "cap": 600
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.4933,
+     "sd": 0.0605,
+     "ci95": [
+      0.465,
+      0.5216
+     ],
+     "min": 0.4,
+     "max": 0.6
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.5925,
+     "sd": 0.0384,
+     "ci95": [
+      0.5746,
+      0.6105
+     ],
+     "min": 0.537,
+     "max": 0.675
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.65,
+     "sd": 4.9019,
+     "ci95": [
+      458.3559,
+      462.9441
+     ],
+     "min": 454,
+     "max": 471
+    }
+   },
+   "vs_paper_setting": {
+    "n": 20,
+    "mean": -0.0566,
+    "sd": 0.052,
+    "ci95": [
+     -0.081,
+     -0.0323
+    ],
+    "min": -0.183,
+    "max": 0.016,
+    "wins": 1,
+    "of": 20
+   }
+  },
+  "cascade, hand down on failure": {
+   "final_recall": {
+    "trained": 0.502,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.597,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.853,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.631,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.7,
+    "sent_max": 470.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 69.0,
+   "wall_s_per_session": 4.1,
+   "self_recall_last": 0.998,
+   "worst_final": 0.4,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 2.85,
+    "demoted": 630,
+    "why": {
+     "forgetting": 107,
+     "cap": 523
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5026,
+     "sd": 0.0499,
+     "ci95": [
+      0.4792,
+      0.5259
+     ],
+     "min": 0.4,
+     "max": 0.583
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.5971,
+     "sd": 0.0255,
+     "ci95": [
+      0.5852,
+      0.609
+     ],
+     "min": 0.549,
+     "max": 0.643
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.7,
+     "sd": 4.7362,
+     "ci95": [
+      458.4834,
+      462.9166
+     ],
+     "min": 454,
+     "max": 470
+    }
+   },
+   "vs_paper_setting": {
+    "n": 20,
+    "mean": -0.0474,
+    "sd": 0.0582,
+    "ci95": [
+     -0.0746,
+     -0.0202
+    ],
+    "min": -0.15,
+    "max": 0.1,
+    "wins": 2,
+    "of": 20
+   }
+  }
+ },
+ "ablations_seconds": 566.9,
+ "sweep": {
+  "rows": [
+   {
+    "lr": 0.02,
+    "tau": 0.05,
+    "final_recall_mean": 0.6625
+   },
+   {
+    "lr": 0.02,
+    "tau": 0.1,
+    "final_recall_mean": 0.6292
+   },
+   {
+    "lr": 0.02,
+    "tau": 0.2,
+    "final_recall_mean": 0.6751
+   },
+   {
+    "lr": 0.02,
+    "tau": 0.5,
+    "final_recall_mean": 0.7208
+   },
+   {
+    "lr": 0.05,
+    "tau": 0.05,
+    "final_recall_mean": 0.7083
+   },
+   {
+    "lr": 0.05,
+    "tau": 0.1,
+    "final_recall_mean": 0.6706
+   },
+   {
+    "lr": 0.05,
+    "tau": 0.2,
+    "final_recall_mean": 0.6751
+   },
+   {
+    "lr": 0.05,
+    "tau": 0.5,
+    "final_recall_mean": 0.65
+   },
+   {
+    "lr": 0.1,
+    "tau": 0.05,
+    "final_recall_mean": 0.6916
+   },
+   {
+    "lr": 0.1,
+    "tau": 0.1,
+    "final_recall_mean": 0.6999
+   },
+   {
+    "lr": 0.1,
+    "tau": 0.2,
+    "final_recall_mean": 0.6793
+   },
+   {
+    "lr": 0.1,
+    "tau": 0.5,
+    "final_recall_mean": 0.6793
+   },
+   {
+    "lr": 0.2,
+    "tau": 0.05,
+    "final_recall_mean": 0.7041
+   },
+   {
+    "lr": 0.2,
+    "tau": 0.1,
+    "final_recall_mean": 0.6959
+   },
+   {
+    "lr": 0.2,
+    "tau": 0.2,
+    "final_recall_mean": 0.7124
+   },
+   {
+    "lr": 0.2,
+    "tau": 0.5,
+    "final_recall_mean": 0.6791
+   }
+  ],
+  "best": {
+   "lr": 0.02,
+   "tau": 0.5,
+   "final_recall_mean": 0.7208
+  },
+  "range": [
+   0.6292,
+   0.7208
+  ]
+ },
+ "sweep_seconds": 138.1,
+ "t5": {
+  "60 turns, k=6, flat": {
+   "final_recall": {
+    "trained": 0.479,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.606,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.872,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.641,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.9,
+    "sent_max": 469.4,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 44.4,
+   "wall_s_per_session": 2.7,
+   "self_recall_last": 0.969,
+   "worst_final": 0.417,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.4792,
+     "sd": 0.0512,
+     "ci95": [
+      0.4552,
+      0.5032
+     ],
+     "min": 0.417,
+     "max": 0.567
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6057,
+     "sd": 0.0422,
+     "ci95": [
+      0.5859,
+      0.6254
+     ],
+     "min": 0.545,
+     "max": 0.702
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.9,
+     "sd": 4.1915,
+     "ci95": [
+      458.9384,
+      462.8616
+     ],
+     "min": 455,
+     "max": 470
+    }
+   }
+  },
+  "60 turns, k=6, tree": {
+   "final_recall": {
+    "trained": 0.578,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0,
+    "route2": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.638,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0,
+     "route2": 1.0
+    },
+    "recent": {
+     "trained": 0.865,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0,
+     "route2": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.668,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0,
+    "route2": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.3,
+    "sent_max": 469.5,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 78.0,
+   "wall_s_per_session": 4.7,
+   "self_recall_last": 0.992,
+   "worst_final": 0.45,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": {
+    "children_mean": 3.0,
+    "closed": 40,
+    "why": {
+     "forgetting": 0,
+     "cap": 40
+    },
+    "self_recall_at_close": 0.991
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5782,
+     "sd": 0.0546,
+     "ci95": [
+      0.5527,
+      0.6038
+     ],
+     "min": 0.45,
+     "max": 0.683
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6383,
+     "sd": 0.0307,
+     "ci95": [
+      0.6239,
+      0.6527
+     ],
+     "min": 0.566,
+     "max": 0.691
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.3,
+     "sd": 4.4733,
+     "ci95": [
+      458.2064,
+      462.3936
+     ],
+     "min": 453,
+     "max": 472
+    }
+   }
+  },
+  "60 turns, k=6, recursive": {
+   "final_recall": {
+    "trained": 0.55,
+    "matching": 0.1,
+    "window": 0.113,
+    "probes": 200,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.62,
+     "matching": 0.144,
+     "window": 0.152,
+     "probes": 1559,
+     "facts": 6757,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.862,
+     "matching": 0.43,
+     "window": 0.558,
+     "probes": 600,
+     "facts": 1043,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.652,
+    "matching": 0.182,
+    "window": 0.206,
+    "probes": 2159,
+    "facts": 7800,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 2997.4,
+    "sent_tokens": 460.6,
+    "sent_max": 470.0,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 58.3,
+   "wall_s_per_session": 3.5,
+   "self_recall_last": 0.989,
+   "worst_final": 0.4,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 2.0,
+    "demoted": 600,
+    "why": {
+     "forgetting": 0,
+     "cap": 600
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.55,
+     "sd": 0.0605,
+     "ci95": [
+      0.5217,
+      0.5782
+     ],
+     "min": 0.4,
+     "max": 0.633
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6195,
+     "sd": 0.0339,
+     "ci95": [
+      0.6036,
+      0.6354
+     ],
+     "min": 0.57,
+     "max": 0.69
+    },
+    "sent": {
+     "n": 20,
+     "mean": 460.55,
+     "sd": 5.0417,
+     "ci95": [
+      458.1905,
+      462.9095
+     ],
+     "min": 453,
+     "max": 473
+    }
+   }
+  },
+  "90 turns, k=9, flat": {
+   "final_recall": {
+    "trained": 0.435,
+    "matching": 0.101,
+    "window": 0.076,
+    "probes": 200,
+    "facts": 1800,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.558,
+     "matching": 0.166,
+     "window": 0.117,
+     "probes": 2773,
+     "facts": 16104,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.928,
+     "matching": 0.606,
+     "window": 0.551,
+     "probes": 600,
+     "facts": 996,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.579,
+    "matching": 0.191,
+    "window": 0.142,
+    "probes": 3373,
+    "facts": 17100,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 4413.1,
+    "sent_tokens": 509.4,
+    "sent_max": 519.0,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 46.2,
+   "wall_s_per_session": 4.2,
+   "self_recall_last": 0.935,
+   "worst_final": 0.322,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.4351,
+     "sd": 0.0663,
+     "ci95": [
+      0.4041,
+      0.4661
+     ],
+     "min": 0.322,
+     "max": 0.567
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.5575,
+     "sd": 0.0296,
+     "ci95": [
+      0.5437,
+      0.5714
+     ],
+     "min": 0.486,
+     "max": 0.607
+    },
+    "sent": {
+     "n": 20,
+     "mean": 509.4,
+     "sd": 7.0293,
+     "ci95": [
+      506.1102,
+      512.6898
+     ],
+     "min": 498,
+     "max": 522
+    }
+   }
+  },
+  "90 turns, k=9, tree": {
+   "final_recall": {
+    "trained": 0.591,
+    "matching": 0.101,
+    "window": 0.076,
+    "probes": 200,
+    "facts": 1800,
+    "ceiling": 1.0,
+    "route2": 0.71
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.653,
+     "matching": 0.166,
+     "window": 0.117,
+     "probes": 2773,
+     "facts": 16104,
+     "ceiling": 1.0,
+     "route2": 0.832
+    },
+    "recent": {
+     "trained": 0.932,
+     "matching": 0.606,
+     "window": 0.551,
+     "probes": 600,
+     "facts": 996,
+     "ceiling": 1.0,
+     "route2": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.669,
+    "matching": 0.191,
+    "window": 0.142,
+    "probes": 3373,
+    "facts": 17100,
+    "ceiling": 1.0,
+    "route2": 0.842
+   },
+   "final": {
+    "transcript_tokens": 4413.1,
+    "sent_tokens": 510.4,
+    "sent_max": 518.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 72.9,
+   "wall_s_per_session": 6.6,
+   "self_recall_last": 0.99,
+   "worst_final": 0.478,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": {
+    "children_mean": 4.0,
+    "closed": 60,
+    "why": {
+     "forgetting": 0,
+     "cap": 60
+    },
+    "self_recall_at_close": 0.992
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5906,
+     "sd": 0.0511,
+     "ci95": [
+      0.5667,
+      0.6145
+     ],
+     "min": 0.478,
+     "max": 0.678
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6529,
+     "sd": 0.031,
+     "ci95": [
+      0.6384,
+      0.6674
+     ],
+     "min": 0.596,
+     "max": 0.707
+    },
+    "sent": {
+     "n": 20,
+     "mean": 510.35,
+     "sd": 4.7381,
+     "ci95": [
+      508.1325,
+      512.5675
+     ],
+     "min": 503,
+     "max": 520
+    }
+   }
+  },
+  "90 turns, k=9, recursive": {
+   "final_recall": {
+    "trained": 0.545,
+    "matching": 0.101,
+    "window": 0.076,
+    "probes": 200,
+    "facts": 1800,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.623,
+     "matching": 0.166,
+     "window": 0.117,
+     "probes": 2773,
+     "facts": 16104,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.926,
+     "matching": 0.606,
+     "window": 0.551,
+     "probes": 600,
+     "facts": 996,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.641,
+    "matching": 0.191,
+    "window": 0.142,
+    "probes": 3373,
+    "facts": 17100,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 4413.1,
+    "sent_tokens": 511.6,
+    "sent_max": 519.2,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 73.0,
+   "wall_s_per_session": 6.6,
+   "self_recall_last": 0.989,
+   "worst_final": 0.467,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 3.0,
+    "demoted": 1800,
+    "why": {
+     "forgetting": 0,
+     "cap": 1800
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5451,
+     "sd": 0.054,
+     "ci95": [
+      0.5198,
+      0.5703
+     ],
+     "min": 0.467,
+     "max": 0.667
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6232,
+     "sd": 0.0287,
+     "ci95": [
+      0.6098,
+      0.6367
+     ],
+     "min": 0.582,
+     "max": 0.675
+    },
+    "sent": {
+     "n": 20,
+     "mean": 511.6,
+     "sd": 6.0123,
+     "ci95": [
+      508.7862,
+      514.4138
+     ],
+     "min": 500,
+     "max": 522
+    }
+   }
+  },
+  "120 turns, k=12, flat": {
+   "final_recall": {
+    "trained": 0.384,
+    "matching": 0.097,
+    "window": 0.057,
+    "probes": 200,
+    "facts": 2400,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.514,
+     "matching": 0.17,
+     "window": 0.093,
+     "probes": 3958,
+     "facts": 28980,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.95,
+     "matching": 0.743,
+     "window": 0.552,
+     "probes": 600,
+     "facts": 1020,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.529,
+    "matching": 0.189,
+    "window": 0.108,
+    "probes": 4558,
+    "facts": 30000,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 5833.6,
+    "sent_tokens": 556.8,
+    "sent_max": 568.0,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 48.2,
+   "wall_s_per_session": 5.8,
+   "self_recall_last": 0.912,
+   "worst_final": 0.317,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.3837,
+     "sd": 0.036,
+     "ci95": [
+      0.3669,
+      0.4006
+     ],
+     "min": 0.317,
+     "max": 0.458
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.5139,
+     "sd": 0.0163,
+     "ci95": [
+      0.5062,
+      0.5215
+     ],
+     "min": 0.479,
+     "max": 0.539
+    },
+    "sent": {
+     "n": 20,
+     "mean": 556.75,
+     "sd": 5.7205,
+     "ci95": [
+      554.0728,
+      559.4272
+     ],
+     "min": 543,
+     "max": 567
+    }
+   }
+  },
+  "120 turns, k=12, tree": {
+   "final_recall": {
+    "trained": 0.573,
+    "matching": 0.097,
+    "window": 0.057,
+    "probes": 200,
+    "facts": 2400,
+    "ceiling": 1.0,
+    "route2": 0.559
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.651,
+     "matching": 0.17,
+     "window": 0.093,
+     "probes": 3958,
+     "facts": 28980,
+     "ceiling": 1.0,
+     "route2": 0.711
+    },
+    "recent": {
+     "trained": 0.956,
+     "matching": 0.743,
+     "window": 0.552,
+     "probes": 600,
+     "facts": 1020,
+     "ceiling": 1.0,
+     "route2": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.661,
+    "matching": 0.189,
+    "window": 0.108,
+    "probes": 4558,
+    "facts": 30000,
+    "ceiling": 1.0,
+    "route2": 0.721
+   },
+   "final": {
+    "transcript_tokens": 5833.6,
+    "sent_tokens": 557.2,
+    "sent_max": 567.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 71.7,
+   "wall_s_per_session": 8.6,
+   "self_recall_last": 0.99,
+   "worst_final": 0.517,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": {
+    "children_mean": 5.0,
+    "closed": 80,
+    "why": {
+     "forgetting": 0,
+     "cap": 80
+    },
+    "self_recall_at_close": 0.99
+   },
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5734,
+     "sd": 0.0315,
+     "ci95": [
+      0.5586,
+      0.5882
+     ],
+     "min": 0.517,
+     "max": 0.642
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6507,
+     "sd": 0.0207,
+     "ci95": [
+      0.641,
+      0.6604
+     ],
+     "min": 0.618,
+     "max": 0.697
+    },
+    "sent": {
+     "n": 20,
+     "mean": 557.25,
+     "sd": 4.9934,
+     "ci95": [
+      554.913,
+      559.587
+     ],
+     "min": 548,
+     "max": 567
+    }
+   }
+  },
+  "120 turns, k=12, recursive": {
+   "final_recall": {
+    "trained": 0.532,
+    "matching": 0.097,
+    "window": 0.057,
+    "probes": 200,
+    "facts": 2400,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.616,
+     "matching": 0.17,
+     "window": 0.093,
+     "probes": 3958,
+     "facts": 28980,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.947,
+     "matching": 0.743,
+     "window": 0.552,
+     "probes": 600,
+     "facts": 1020,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.627,
+    "matching": 0.189,
+    "window": 0.108,
+    "probes": 4558,
+    "facts": 30000,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 5833.6,
+    "sent_tokens": 559.4,
+    "sent_max": 568.5,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 77.6,
+   "wall_s_per_session": 9.3,
+   "self_recall_last": 0.989,
+   "worst_final": 0.467,
+   "trained_beats_matching": 20,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "cascade": {
+    "levels_mean": 4.0,
+    "demoted": 3600,
+    "why": {
+     "forgetting": 0,
+     "cap": 3600
+    }
+   },
+   "per_seed": {
+    "final": {
+     "n": 20,
+     "mean": 0.5316,
+     "sd": 0.0391,
+     "ci95": [
+      0.5133,
+      0.5499
+     ],
+     "min": 0.467,
+     "max": 0.617
+    },
+    "old": {
+     "n": 20,
+     "mean": 0.6163,
+     "sd": 0.0168,
+     "ci95": [
+      0.6084,
+      0.6242
+     ],
+     "min": 0.594,
+     "max": 0.668
+    },
+    "sent": {
+     "n": 20,
+     "mean": 559.4,
+     "sd": 4.2227,
+     "ci95": [
+      557.4237,
+      561.3763
+     ],
+     "min": 552,
+     "max": 567
+    }
+   }
+  }
+ },
+ "t5_seconds": 1158.4,
+ "t4": {
+  "30 turns, k=4, paraphrase": {
+   "final_recall": {
+    "trained": 0.662,
+    "matching": 0.135,
+    "window": 0.228,
+    "probes": 400,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.698,
+     "matching": 0.172,
+     "window": 0.208,
+     "probes": 820,
+     "facts": 2212,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.835,
+     "matching": 0.323,
+     "window": 0.559,
+     "probes": 1188,
+     "facts": 1988,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.763,
+    "matching": 0.244,
+    "window": 0.374,
+    "probes": 2008,
+    "facts": 4200,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 1584.2,
+    "sent_tokens": 428.6,
+    "sent_max": 435.9,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 26.9,
+   "wall_s_per_session": 0.8,
+   "self_recall_last": 0.992,
+   "worst_final": 0.567,
+   "trained_beats_matching": 40,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 40,
+     "mean": 0.6625,
+     "sd": 0.0762,
+     "ci95": [
+      0.6381,
+      0.6869
+     ],
+     "min": 0.567,
+     "max": 0.833
+    },
+    "old": {
+     "n": 40,
+     "mean": 0.6973,
+     "sd": 0.0671,
+     "ci95": [
+      0.6758,
+      0.7187
+     ],
+     "min": 0.574,
+     "max": 0.847
+    },
+    "sent": {
+     "n": 40,
+     "mean": 428.625,
+     "sd": 3.9658,
+     "ci95": [
+      427.3565,
+      429.8935
+     ],
+     "min": 419,
+     "max": 439
+    }
+   }
+  },
+  "30 turns, k=4, overlap": {
+   "final_recall": {
+    "trained": 0.612,
+    "matching": 0.403,
+    "window": 0.225,
+    "probes": 400,
+    "facts": 1200,
+    "ceiling": 1.0
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.639,
+     "matching": 0.438,
+     "window": 0.206,
+     "probes": 820,
+     "facts": 2212,
+     "ceiling": 1.0
+    },
+    "recent": {
+     "trained": 0.799,
+     "matching": 0.606,
+     "window": 0.551,
+     "probes": 1188,
+     "facts": 1988,
+     "ceiling": 1.0
+    }
+   },
+   "recall": {
+    "trained": 0.715,
+    "matching": 0.517,
+    "window": 0.369,
+    "probes": 2008,
+    "facts": 4200,
+    "ceiling": 1.0
+   },
+   "final": {
+    "transcript_tokens": 1591.2,
+    "sent_tokens": 429.6,
+    "sent_max": 435.6,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 26.1,
+   "wall_s_per_session": 0.8,
+   "self_recall_last": 0.992,
+   "worst_final": 0.433,
+   "trained_beats_matching": 38,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 40,
+     "mean": 0.6117,
+     "sd": 0.0765,
+     "ci95": [
+      0.5872,
+      0.6361
+     ],
+     "min": 0.433,
+     "max": 0.733
+    },
+    "old": {
+     "n": 40,
+     "mean": 0.6391,
+     "sd": 0.0615,
+     "ci95": [
+      0.6194,
+      0.6587
+     ],
+     "min": 0.508,
+     "max": 0.75
+    },
+    "sent": {
+     "n": 40,
+     "mean": 429.625,
+     "sd": 3.0356,
+     "ci95": [
+      428.654,
+      430.596
+     ],
+     "min": 423,
+     "max": 436
+    }
+   }
+  },
+  "60 turns, k=4, paraphrase": {
+   "final_recall": {
+    "trained": 0.416,
+    "matching": 0.06,
+    "window": 0.114,
+    "probes": 400,
+    "facts": 2399,
+    "ceiling": 0.667
+   },
+   "by_age": {
+    "old": {
+     "trained": 0.525,
+     "matching": 0.092,
+     "window": 0.152,
+     "probes": 3111,
+     "facts": 13516,
+     "ceiling": 0.814
+    },
+    "recent": {
+     "trained": 0.817,
+     "matching": 0.293,
+     "window": 0.559,
+     "probes": 1200,
+     "facts": 2078,
+     "ceiling": 0.994
+    }
+   },
+   "recall": {
+    "trained": 0.564,
+    "matching": 0.118,
+    "window": 0.206,
+    "probes": 4311,
+    "facts": 15594,
+    "ceiling": 0.838
+   },
+   "final": {
+    "transcript_tokens": 2996.3,
+    "sent_tokens": 428.9,
+    "sent_max": 437.1,
+    "round_trips": 2.0
+   },
+   "wall_ms_per_turn": 30.2,
+   "wall_s_per_session": 1.8,
+   "self_recall_last": 0.965,
+   "worst_final": 0.317,
+   "trained_beats_matching": 40,
+   "exact": null,
+   "tree": null,
+   "toolmodel": null,
+   "per_seed": {
+    "final": {
+     "n": 40,
+     "mean": 0.4161,
+     "sd": 0.0431,
+     "ci95": [
+      0.4023,
+      0.4299
+     ],
+     "min": 0.317,
+     "max": 0.483
+    },
+    "old": {
+     "n": 40,
+     "mean": 0.5251,
+     "sd": 0.0317,
+     "ci95": [
+      0.515,
+      0.5353
+     ],
+     "min": 0.455,
+     "max": 0.62
+    },
+    "sent": {
+     "n": 40,
+     "mean": 428.875,
+     "sd": 3.1961,
+     "ci95": [
+      427.8527,
+      429.8973
+     ],
+     "min": 422,
+     "max": 437
+    }
+   }
+  }
+ },
+ "t4_seconds": 150.3
+}

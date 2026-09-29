@@ -1,0 +1,65 @@
+Figure 1
+Title: Architecture of the system.
+Legend: Words pass only between the person and the frontier model. The frontier keeps no transcript and reaches its context through two tools, recall and teach. CMLM levels hand their oldest facts down as feature vectors, at no token cost, and ranked facts climb back. An exact-key integer memory (the Life) sits beside every level. A tool-recovering model can make the frontier's calls once a prequential gate allows it.
+
+Figure 2
+Title: Recall at the last turn as sessions grow, by shape.
+Legend: Bars are means over 20 seeds and whiskers are 95% confidence intervals over seeds. k equals the facts per topic at the last turn, so the ceiling is 1. Hatching distinguishes the shapes without colour.
+
+Figure 3
+Title: Recall as a share of its ceiling through a 300-turn session.
+Legend: Seed 1 of the run with a 3,300-token document per turn and k = 12; markers are the probe checkpoints every 50 turns. The ceiling falls as facts per topic pass k.
+
+Figure 4
+Title: Input tokens per question through the 300-turn session.
+Legend: Log scale. The transcript path is counted on every turn and never sent; the CMLM path is what the frontier was actually sent. Cascade, seed 1; token counts are characters divided by four. The dashed line marks a one-million-token context window.
+
+Figure 5
+Title: Accuracy and confidence of the key head on unseen facts.
+Legend: The key head was taught n keyed examples and tested on the next 30 facts of the same world, for three seeds. Lines are means and dots single seeds. Committed counts predictions whose softmax share was at least 0.6; the dashed line is the prequential gate at 0.85.
+
+Figure 6
+Title: Cumulative input tokens of a real 34-turn session under three paths.
+Legend: The paper's cost model applied to the per-turn sizes of the conversation in which this work was developed. Log scale; token counts are characters divided by four. No message text is used.
+
+Table 1
+Title: Prior approaches to context beyond the window, on the properties this paper measures.
+Legend: Re-sent per turn: what the request carries on every turn. Frontier weights needed: whether the approach needs access to, or training of, the serving model's parameters.
+
+Table 2
+Title: Notation.
+
+Table 3
+Title: The synthetic world and the settings used in every run unless a table says otherwise.
+
+Table 4
+Title: Short sessions: the trained CMLM against the same model at step zero and a token window, 40 seeds.
+Legend: Recall is pooled over the probes of the last turn. Old facts were taught more than 15 turns before the probe; the old and recent values pool all probes of the session. Token counts are characters divided by four.
+
+Table 5
+Title: Recall as sessions grow: the flat model against the tree and the cascade, 20 seeds.
+Legend: k equals the facts per topic at the last turn, so the ceiling is 1. Old facts were taught more than 15 turns before the probe; old and recent values pool all probes of the session.
+
+Table 6
+Title: A million tokens deep: 300 turns of 3,300-token documents, five seeds, each shape with the Life.
+Legend: The ceiling of recall@12 at the last turn is 0.400. Token counts are characters divided by four; the transcript path is counted, never sent.
+
+Table 7
+Title: Recall at the last turn and old-fact recall at 60 turns, k = 6, 20 seeds: mean, standard deviation, 95% confidence interval, and the paired difference against the flat model.
+Legend: Intervals are t-based on per-seed values; the gains are per-seed differences against the flat model on the same seed.
+
+Table 8
+Title: The same statistics for the 300-turn document run, k = 12, five seeds.
+Legend: The ceiling of recall@12 at the last turn is 0.400. Intervals are t-based on per-seed values; the gains are per-seed differences against the flat model on the same seed.
+
+Table 9
+Title: The Life beside each shape: exactness, abstention and revision, with the map's paraphrase recall, 20 seeds, 60 turns, k = 6.
+
+Table 10
+Title: The tool-recovering model: what a permissive gate removes and what it misfiles, 20 seeds, 60 turns, k = 6; and the prequential gate over 120 turns.
+Legend: Tools every turn: the same runs with the tool model observing but never switching. Permissive gate: the switch threshold set to 0, so the model takes over after 30 keyed examples. Sent tokens compare the same turns, 31 to 60: turns 1 to 30 are identical in both runs, so the tools-every-turn mean over turns 31 to 60 follows from its mean over all 60 turns.
+
+Table 11
+Title: A real 34-turn session, costed with the per-turn model of the paper.
+Legend: Sizes are those of the conversation in which this work was developed; no message text is used. Token counts are characters divided by four. Warm cache: history read at 0.1 and the last turn written at 1.25 times the input price.
+

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.cmlm
+*.life.json
+paper/render/

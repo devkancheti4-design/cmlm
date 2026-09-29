@@ -1,0 +1,334 @@
+{
+ "method": "Claude in this session wrote the frontier's recall queries and teach pairs with keys for 12 turns of world seed 1 (the answers are the world's scripted fact-bearing text), then answered 10 probes quoting only the readout lines that applied; scored against a truth the answers never saw. Not blind on cue writing: the same session saw the facts.",
+ "date": "2026-09-25",
+ "calls": {
+  "What about the frame mulch sprouts?": {
+   "recall": {
+    "query": "garden frame, mulch and sprouts, the planter or trellis",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The trellis garden planter is 2 of 32.",
+   "teach": [
+    {
+     "cue": "how far along are the garden planters, the sprouts on the frame with the mulch",
+     "fact": "The trellis garden planter is 2 of 32.",
+     "key": "garden.planter_progress"
+    }
+   ]
+  },
+  "What about the agreement monthly bond?": {
+   "recall": {
+    "query": "the flat agreement, the monthly rent and the bond or deposit",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The tenancy flat deposit is 5 of 21.",
+   "teach": [
+    {
+     "cue": "what is the count on the flat deposit under the monthly agreement, the bond",
+     "fact": "The tenancy flat deposit is 5 of 21.",
+     "key": "flat.deposit_count"
+    }
+   ]
+  },
+  "What about the supplier parcel shipping?": {
+   "recall": {
+    "query": "the supplier's parcel and its shipping, the carton from Acme",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The acme dispatched carton is reference 47245.",
+   "teach": [
+    {
+     "cue": "what is the shipping reference for the parcel the supplier dispatched",
+     "fact": "The acme dispatched carton is reference 47245.",
+     "key": "acme.carton_reference"
+    }
+   ]
+  },
+  "What about the fee terms assessor?": {
+   "recall": {
+    "query": "the insurance fee, the terms and the assessor's claim",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The deductible claim insurance is 3 of 34.",
+   "teach": [
+    {
+     "cue": "how many of the insurance claims has the assessor cleared under the terms and fee",
+     "fact": "The deductible claim insurance is 3 of 34.",
+     "key": "insurance.claims_assessed"
+    }
+   ]
+  },
+  "What about the surgery cavity cap?": {
+   "recall": {
+    "query": "the dental surgery, the cavity and the cap, the clinic bill",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The molar hygienist clinic is 4,652 rupees.",
+   "teach": [
+    {
+     "cue": "how much is the clinic charging for the cavity and cap surgery on the tooth",
+     "fact": "The molar hygienist clinic is 4,652 rupees.",
+     "key": "clinic.molar_cost"
+    }
+   ]
+  },
+  "What about the section panel supervisor?": {
+   "recall": {
+    "query": "the thesis section, the panel and the supervisor's committee",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The advisor committee draft is 2 of 25.",
+   "teach": [
+    {
+     "cue": "how far is the thesis draft with the supervisor and the panel, sections done",
+     "fact": "The advisor committee draft is 2 of 25.",
+     "key": "thesis.draft_progress"
+    }
+   ]
+  },
+  "What about the bill contractor books?": {
+   "recall": {
+    "query": "the contractor's bill, the books and the invoice ledger",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The ledger invoice accounts is Tuesday at 9:30.",
+   "teach": [
+    {
+     "cue": "when is the contractor bill and the books being settled, the invoice meeting",
+     "fact": "The ledger invoice accounts is Tuesday at 9:30.",
+     "key": "invoice.review_time"
+    }
+   ]
+  },
+  "What about the fixture purchase supplier?": {
+   "recall": {
+    "query": "the light fixture purchase from the supplier, the lamp order",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The lamp carton acme is reference 79124.",
+   "teach": [
+    {
+     "cue": "what is the order reference for the light fixture purchase from the supplier",
+     "fact": "The lamp carton acme is reference 79124.",
+     "key": "acme.lamp_reference"
+    }
+   ]
+  },
+  "What about the machine downtime fleet?": {
+   "recall": {
+    "query": "the machine downtime across the fleet, the outage incident",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The incident deploy outage is due on the 14th.",
+   "teach": [
+    {
+     "cue": "when is the fleet downtime incident due, the machine outage",
+     "fact": "The incident deploy outage is due on the 14th.",
+     "key": "outage.due"
+    }
+   ]
+  },
+  "What about the apartment bond owner?": {
+   "recall": {
+    "query": "the apartment owner and the bond, the flat deposit",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The tenancy deposit flat is due on the 21th.",
+   "teach": [
+    {
+     "cue": "when is the apartment bond due to the owner, the flat deposit deadline",
+     "fact": "The tenancy deposit flat is due on the 21th.",
+     "key": "flat.deposit_due"
+    }
+   ]
+  },
+  "What about the talk summit hall?": {
+   "recall": {
+    "query": "the summit talk in the hall, conference registration",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The badge keynote registration is due on the 9th.",
+   "teach": [
+    {
+     "cue": "when is registration due for the summit talk in the hall, the badge",
+     "fact": "The badge keynote registration is due on the 9th.",
+     "key": "conference.registration_due"
+    }
+   ]
+  },
+  "What about the document travel mission?": {
+   "recall": {
+    "query": "the travel document for the mission, the visa at the consulate",
+    "k": 4,
+    "key": ""
+   },
+   "answer": "The embassy consulate biometrics is due on the 7th.",
+   "teach": [
+    {
+     "cue": "when are the travel documents due for the mission, the biometrics appointment",
+     "fact": "The embassy consulate biometrics is due on the 7th.",
+     "key": "visa.biometrics_due"
+    }
+   ]
+  }
+ },
+ "probes": [
+  {
+   "topic": 0,
+   "probe": "Tell me again about the fixture purchase parcel.",
+   "readout": "[taught turn 7] The lamp carton acme is reference 79124.\n[taught turn 5] The advisor committee draft is 2 of 25.\n[taught turn 6] The ledger invoice accounts is Tuesday at 9:30.\n[taught turn 0] The trellis garden planter is 2 of 32."
+  },
+  {
+   "topic": 1,
+   "probe": "Tell me again about the agreement owner apartment.",
+   "readout": "[taught turn 1] The tenancy flat deposit is 5 of 21.\n[taught turn 4] The molar hygienist clinic is 4,652 rupees.\n[taught turn 9] The tenancy deposit flat is due on the 21th.\n[taught turn 2] The acme dispatched carton is reference 47245."
+  },
+  {
+   "topic": 2,
+   "probe": "Tell me again about the document fingerprints interview.",
+   "readout": "[taught turn 10] The badge keynote registration is due on the 9th.\n[taught turn 11] The embassy consulate biometrics is due on the 7th.\n[taught turn 7] The lamp carton acme is reference 79124.\n[taught turn 5] The advisor committee draft is 2 of 25."
+  },
+  {
+   "topic": 3,
+   "probe": "Tell me again about the contractor books transfer.",
+   "readout": "[taught turn 6] The ledger invoice accounts is Tuesday at 9:30.\n[taught turn 3] The deductible claim insurance is 3 of 34.\n[taught turn 0] The trellis garden planter is 2 of 32.\n[taught turn 10] The badge keynote registration is due on the 9th."
+  },
+  {
+   "topic": 4,
+   "probe": "Tell me again about the release downtime machine.",
+   "readout": "[taught turn 8] The incident deploy outage is due on the 14th.\n[taught turn 11] The embassy consulate biometrics is due on the 7th.\n[taught turn 10] The badge keynote registration is due on the 9th.\n[taught turn 9] The tenancy deposit flat is due on the 21th."
+  },
+  {
+   "topic": 5,
+   "probe": "Tell me again about the cleaning tooth surgery.",
+   "readout": "[taught turn 4] The molar hygienist clinic is 4,652 rupees.\n[taught turn 1] The tenancy flat deposit is 5 of 21.\n[taught turn 10] The badge keynote registration is due on the 9th.\n[taught turn 7] The lamp carton acme is reference 79124."
+  },
+  {
+   "topic": 6,
+   "probe": "Tell me again about the supervisor manuscript panel.",
+   "readout": "[taught turn 5] The advisor committee draft is 2 of 25.\n[taught turn 11] The embassy consulate biometrics is due on the 7th.\n[taught turn 8] The incident deploy outage is due on the 14th.\n[taught turn 6] The ledger invoice accounts is Tuesday at 9:30."
+  },
+  {
+   "topic": 7,
+   "probe": "Tell me again about the vegetables sprouts mulch.",
+   "readout": "[taught turn 0] The trellis garden planter is 2 of 32.\n[taught turn 6] The ledger invoice accounts is Tuesday at 9:30.\n[taught turn 3] The deductible claim insurance is 3 of 34.\n[taught turn 11] The embassy consulate biometrics is due on the 7th."
+  },
+  {
+   "topic": 8,
+   "probe": "Tell me again about the request terms excess.",
+   "readout": "[taught turn 11] The embassy consulate biometrics is due on the 7th.\n[taught turn 7] The lamp carton acme is reference 79124.\n[taught turn 3] The deductible claim insurance is 3 of 34.\n[taught turn 10] The badge keynote registration is due on the 9th."
+  },
+  {
+   "topic": 9,
+   "probe": "Tell me again about the summary pass hall.",
+   "readout": "[taught turn 10] The badge keynote registration is due on the 9th.\n[taught turn 9] The tenancy deposit flat is due on the 21th.\n[taught turn 11] The embassy consulate biometrics is due on the 7th.\n[taught turn 6] The ledger invoice accounts is Tuesday at 9:30."
+  }
+ ],
+ "answers": {
+  "Tell me again about the fixture purchase parcel.": "From what the context model holds on the fixture purchase: The lamp carton acme is reference 79124. Nothing else in the readout concerns that parcel.",
+  "Tell me again about the agreement owner apartment.": "Two things are held on the flat: The tenancy flat deposit is 5 of 21. The tenancy deposit flat is due on the 21th.",
+  "Tell me again about the document fingerprints interview.": "On the visa appointment: The embassy consulate biometrics is due on the 7th.",
+  "Tell me again about the contractor books transfer.": "On the contractor's books: The ledger invoice accounts is Tuesday at 9:30.",
+  "Tell me again about the release downtime machine.": "On the machine downtime: The incident deploy outage is due on the 14th.",
+  "Tell me again about the cleaning tooth surgery.": "On the tooth work: The molar hygienist clinic is 4,652 rupees.",
+  "Tell me again about the supervisor manuscript panel.": "On the thesis with the panel: The advisor committee draft is 2 of 25.",
+  "Tell me again about the vegetables sprouts mulch.": "On the garden: The trellis garden planter is 2 of 32.",
+  "Tell me again about the request terms excess.": "On the insurance claim: The deductible claim insurance is 3 of 34.",
+  "Tell me again about the summary pass hall.": "On the summit: The badge keynote registration is due on the 9th."
+ },
+ "score": {
+  "seed": 1,
+  "turns": 12,
+  "recall_in_answer": 0.917,
+  "recall_in_readout": 0.917,
+  "facts": 12,
+  "abstained_rightly": 0,
+  "abstained_wrongly": 0,
+  "rows": [
+   {
+    "topic": 0,
+    "truth": 2,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 1,
+    "truth": 2,
+    "in_readout": 2,
+    "in_answer": 2,
+    "abstained": false
+   },
+   {
+    "topic": 2,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 3,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 4,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 5,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 6,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 7,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 8,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   },
+   {
+    "topic": 9,
+    "truth": 1,
+    "in_readout": 1,
+    "in_answer": 1,
+    "abstained": false
+   }
+  ],
+  "sent_per_turn_mean": 418,
+  "life_keys": 12,
+  "exact_by_own_keys": 12
+ }
+}
