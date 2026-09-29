@@ -211,7 +211,12 @@ def test_a_frontier_that_does_not_teach_is_covered_and_a_refusal_teaches_nothing
     s = Session(NS(beta=NS(messages=NS(create=plain))), CMLM(seed=0))
     t = asyncio.run(s.ask("how much is the deposit"))
     assert t.taught_by == "pattern" and t.pairs == 1 and t.round_trips == 1 and t.recalls == []
-    assert s.cmlm.facts == ["The deposit is 2,400 rupees."] and t.cost_usd == round((100 * 5 + 20 * 25) / 1e6, 6)
+    try:
+        import chorus.sample  # noqa: F401 -- the price table lives there when it is installed
+        priced = round((100 * 5 + 20 * 25) / 1e6, 6)
+    except ImportError:
+        priced = None                                    # chorus absent: the turn is unpriced, not wrong
+    assert s.cmlm.facts == ["The deposit is 2,400 rupees."] and t.cost_usd == priced
 
     async def refuse(**kw):
         return NS(content=[], stop_reason="refusal", stop_details=NS(category="cyber"), model="claude-opus-5",
